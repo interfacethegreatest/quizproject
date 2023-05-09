@@ -17,5 +17,4 @@ A cream labelled fire extinguisher contains: ,A Foam-B Dry powder-C Water-D Carb
 What action should you take if you discover a fire?,A Leave the building through the shortest route-B Raise the alarm and leave the building-C Turn of all gas and power before leaving the building-D Extinguish the fire before raising the alarm,B
 What must you ensure by law before working in a confined space?,A You have a competent assistant-B You have had the atmosphere checked-C You smell for gases-D You have a permit to work signed by you and your supervisor for that shift,D
 What is the recommended maximum safe voltage for hand held tools?,A 80 V-B 110 V-C 240 V-D 415 V,B 
-What is the recommended maximum safe voltage for arc welding equipment?,A 80 V-B 110 V-C 240 V-D 415 V,A 
-   
+What is the recommended maximum safe voltage for arc welding equipment?,A 80 V-B 110 V-C 240 V-D 415 V,A  
