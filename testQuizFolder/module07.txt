@@ -1,0 +1,32 @@
+F* Atoms can be described as having: * a very small negative electrical charge surrounding a larger and heavier centre called a _. This contains a densely packed protons which carry a positive charge.*nucleus
+F* The most stable configuration of atoms have: *_ atoms in their outer shell*eight/8
+F* Molecules :* Containing two or more _ are called a _.*element-compound
+F* Mixtures: * Mixtures are the combinations of two or more elements that can be separated _ a chemical reaction.*without
+F* Plastics: * Carbon-based compounds are the basis of all of the plastics and more importantly life. Carbon-based compounds are constructed from a small number of elements: _, _ and _ mainly.*oxygen/carbon/hydrogen-oxygen/carbon/hydrogen-oxygen/carbon/hydrogen
+F* Monomers: * A monomer is a molecule that is able to bond with other _'s to form _ _*monomer/monomers-long-chain/chains
+F* Polymers: * Can be made up of thousands of _, linking up monomers is called _.*monomers-polymerisation
+F* Metal properties : Tensile strength* Tensile strength is the measure of a metals abilities to withstand being pulled apart or a stretching load. There are two types of tensile strength measurements: -Ultimate tensile _, which is the maximum _ a material can hold.-The proof load, or _ point. Measuring the point at which the material becomes _.*strength-load-yield-deformed
+F* Elasticity:* The measure of a material to be able to return back to its original shape after being _ by a force or a load.*stretched
+F* Ductility: * The measure of a the ability to be drawn into a wire or tube without fractrue or failure. The ductility is measured in a tensile test machine by measuring how far it stretched from it's _ length.*original
+F* Malleability: * The ability to be formed or bent into a shape without _ or _. Materials which are highly malleable tend to be _. -As materials are formed grains become more tightly compressed and the material becomes less malleable, this is known as work _.*fracture/failure-fracture/failure-ductile-hardening
+F* Brittleness: * Brittleness, is the opposite of _.-The tenedency for a material to 'brittle fracture' without bending or changing shape.*malleability
+F* Shear strength: *The ability to withstand offset loads without _. Generally considerably less than tensile strength.*fracture
+F* Compressive strength: * The ability to withstand squashing forces without being permanently _.*Crushed
+F* Deflection: *The ability of a mateiral to withstand a load without _ out of shape. *flexing
+F* Toughness : * The ability to withstand _. e.g. from a hammer blow.
+F* Hardness: *The ability of a material to withstand _, indentation or scratching.The depth of the indentation is often measured which gives the hardness result.*scratching 
+F* _:* is the ability of a _ material to pass heat or electricity.*solid
+F* _ strength: *is the oppposite of _; it is the ability of a mateiral to resist an electrical field.*conductivity
+F* Creep: *Is the tendency of meterials to _ under stress over a period of _ and _.*deform-time-temperature
+F* Metal Fatigue: *Caused by repeated cyclic _. Metal fatigue is hard to detect, as _ fractures which are difficult to see can cause catastrophic _.*loading-failure
+F* Ferrous metals: *Carbon steels. The properties and characteristics of carbon steel depend on the quality of _ in the steel.Common carbon steel combinations are: -Dead mild steel at 0.05-0.15% carbon-Mild steel containing 0.15-0.3% carbon-Medium steel at 0.3-0.8%-High carbon steel 0.8-1.5%-Grey cast iron 1.7% carbon.*carbon
+F* Stainless steel: *One of the best chemical-corrosion resistant materials. Used extensively in food, marine and petrochemical industries.
+F* Stainless steels: *Martensitic, can be _. Used in chefs knives.*Hardened
+F* Stainless steels: *Ferritic, hard and _. Used where corrosion resistance is needed such as furnace parts.*brittle
+F* Stainless steels:* Austenitic, malleable and weldable. Commonly used in the medical industries.
+F* Stainless steels:* Duplex, malleable and weldable. Commonly used in the medical industries.
+F* Aluminium alloys: *White appearing, light weight and corrosion resistant and non-magnetric. Alluminium alloys are used for their commercial fast-repaired nature.
+F* Aluminium 5000 series: *These are containing _ with additions of magnesium. Known to quickly become work hardened with high tensile strength.-Easily weldable, heat treated and are corrosion resistant.*copper
+F* Lead: * Lead is exceptionally _, with good corrosion and chemical resistant properties. Although is also known to have poor _. Lead has poor soundproofing also, while being known as a common radiation _.*malleable-creep-shield
+F* Copper: *Copper alloys are good conductors of _ and _. They are very ductile and malleable. They can be easily joined with solder, ideal for plumbing.
+F* Brass: *Alloy of copper and between 29% and 40% zinc. Brass with lower than 36% zinc can be _ worked. Above 36% are hard and brittle.*cold
