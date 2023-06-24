@@ -11,7 +11,7 @@ A prohibition notice means: ,A When you finish work you must not start again-B T
 Employers must write a health and safety policy when: ,A The HSE tell them-B The safety representative asks them-C When a new contract starts-D When they employ 5 or more people,D
 An improvement notice may be served on a company: ,A By the police-B If there is a breach of legal requirements-C To make minor safety improvements-D To notify someone of a pending process,C
 Who is expected to carry out a risk assessment?,A Manager-B Safety representative-C Competent person-D Machine operator
-At what noise level is it recommended to wear hearing protection?-A 80 decibels-B 85 decibels-C 90 decibels-D 95 decibels
+At what noise level is it recommended to wear hearing protection?,-A 80 decibels-B 85 decibels-C 90 decibels-D 95 decibels,B
 A black labelled fire extinguisher contains: ,A Foam-B Dry powder-C Water-D Carbon dioxide,D 
 A cream labelled fire extinguisher contains: ,A Foam-B Dry powder-C Water-D Carbon dioxide,A
 What action should you take if you discover a fire?,A Leave the building through the shortest route-B Raise the alarm and leave the building-C Turn of all gas and power before leaving the building-D Extinguish the fire before raising the alarm,B
