@@ -1,4 +1,4 @@
-Which of the following legislations does not apply to using an electric grinder at work?,A Provision and Use of Work Equipment Regulations 1998-B Personal Protective Equipment at Work Regulations 1992-C Manual Handling Operations Regulations 1992-D Workplace (Health, Safety and Welfare) Regulations 1992,B
+Which of the following legislations does not apply to using an electric grinder at work?,A Provision and Use of Work Equipment Regulations 1998-B Personal Protective Equipment at Work Regulations 1992-C Manual Handling Operations Regulations 1992-D Workplace (Health Safety and Welfare) Regulations 1992,B
 Which legislation states the employers' duties in relation to the provision of drinking water?,A Control of Substances Hazardous to Health Regulations 2002-B Health and Safety (First Aid) Regulations 1981-C Workplace (Health Safety and Welfare) Regulations 1992-D Management of Health and Safety at Work Regulations 1999,C
 Which of the following is not your legal duty at work?,A To take reasonable care of others at work-B Co-operate with your employer on health and safety-C Use equipment on your own once you have read the safe systems of work-D Keep your work place tidy and clean,D
 Which of the following is not a requirement under a risk assessment?,A Evaluate the cost of an accident-B Evaluate the risks and decide on precautions-C Record your findings and implement them-D Review your assessment and update if necessary,A
@@ -10,7 +10,7 @@ Who has a legal obligation to comply with safety in the work place?,A Employer-B
 A prohibition notice means: ,A When you finish work you must not start again-B The work must stop immediately-C Work is stopped for that day only-D You must stop work at the end of the day,B
 Employers must write a health and safety policy when: ,A The HSE tell them-B The safety representative asks them-C When a new contract starts-D When they employ 5 or more people,D
 An improvement notice may be served on a company: ,A By the police-B If there is a breach of legal requirements-C To make minor safety improvements-D To notify someone of a pending process,C
-Who is expected to carry out a risk assessment?,A Manager-B Safety representative-C Competent person-D Machine operator
+Who is expected to carry out a risk assessment?,A Manager-B Safety representative-C Competent person-D Machine operator,A
 At what noise level is it recommended to wear hearing protection?,-A 80 decibels-B 85 decibels-C 90 decibels-D 95 decibels,B
 A black labelled fire extinguisher contains: ,A Foam-B Dry powder-C Water-D Carbon dioxide,D 
 A cream labelled fire extinguisher contains: ,A Foam-B Dry powder-C Water-D Carbon dioxide,A

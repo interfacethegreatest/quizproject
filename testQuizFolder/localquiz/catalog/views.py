@@ -2,6 +2,7 @@ from django.shortcuts import render
 import requests
 import json
 from django.http import JsonResponse
+from json import dumps
 
 # Create your views here.
 def output(request):
@@ -20,9 +21,9 @@ def load_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
         return lines
-
-def take_tma_03(request):
-    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
+    
+def get_questions(string : str):
+    questionLines = load_file(string)
     questions = []
     for lines in questionLines:
         lines.strip('\n')
@@ -31,10 +32,21 @@ def take_tma_03(request):
         answers = answers.split('-')
         questionObject[1] = answers 
         questions.append(questionObject)
-    data = json.dumps(questions)
-    context = {'json_data':json_data}
-    return render(request, 'takeTMA.html', context)
+    return questions
 
 
-#def TakeModuleTest(request):
-#    return render(request, ' ')
+def take_tma_03(request):
+    questions = get_questions('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
+    quizQuestions = []
+    counter = 1
+    for question in questions:
+        questionObj = {
+            "question": question[0],
+            "solutions": question[1],
+            "correctAnswer": question[2][0]
+        }
+        quizQuestions.append({str(counter): questionObj})
+        counter+=1
+    dataJSON = dumps(quizQuestions)   
+    return render(request, 'takeTMA.html', {'data':dataJSON})
+

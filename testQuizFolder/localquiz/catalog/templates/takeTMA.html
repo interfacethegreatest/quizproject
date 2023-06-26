@@ -6,13 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        TMA
-    </h1>
-    <BUTTON onclick="location.href='{% url 'tma03'%}'">  Tma03</BUTTON>
-    {% if data %}
-    {{data}}
-    {%endif%}
-
+    <h1> HOME</h1>
+    <a href="{% url 'take_tma' %}" class="button-link">Take TMA</a>
+    <button>Take Module Quiz</button>
+    <BUTTON onclick="location.href='{% url 'script'%}'"> EXECUTE SCRIPT</BUTTON>
+    
+    
+    <h4 id='neatdata'></h4>
+<script>
+    var data = JSON.parse("{{data|escapejs}}");
+    var dataNode = document.getElementById('neatdata')
+    for(var x in data){
+        dataNode.innerHTML+=data;
+        
+    }
+</script>
 </body>
 </html>

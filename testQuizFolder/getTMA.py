@@ -10,7 +10,6 @@ def load_file(filename):
     
 def get_questions():
     questionLines = load_file('questions.txt')
-    random.shuffle(questionLines)
     questions = []
     for lines in questionLines:
         lines.strip('\n')
