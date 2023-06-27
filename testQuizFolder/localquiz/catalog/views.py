@@ -37,16 +37,17 @@ def get_questions(string : str):
 
 def take_tma_03(request):
     questions = get_questions('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
-    quizQuestions = []
+    quizQuestions = dict()
     counter = 1
     for question in questions:
-        questionObj = {
+        questionObj = { 
             "question": question[0],
             "solutions": question[1],
             "correctAnswer": question[2][0]
         }
-        quizQuestions.append({str(counter): questionObj})
-        counter+=1
-    dataJSON = dumps(quizQuestions)   
-    return render(request, 'takeTMA.html', {'data':dataJSON})
+        quizQuestions[str(counter)] = questionObj
+        counter += 1
+
+    response  = quizQuestions
+    return render(request, 'takeTMA.html', {'data' : quizQuestions})
 

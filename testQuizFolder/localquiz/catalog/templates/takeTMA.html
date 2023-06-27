@@ -6,20 +6,29 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> HOME</h1>
-    <a href="{% url 'take_tma' %}" class="button-link">Take TMA</a>
+    <h1>TAKE TMA</h1>
     <button>Take Module Quiz</button>
-    <BUTTON onclick="location.href='{% url 'script'%}'"> EXECUTE SCRIPT</BUTTON>
+    <button onclick="location.href='{% url 'tma03' %}'">EXECUTE SCRIPT</button>
     
-    
-    <h4 id='neatdata'></h4>
-<script>
-    var data = JSON.parse("{{data|escapejs}}");
-    var dataNode = document.getElementById('neatdata')
-    for(var x in data){
-        dataNode.innerHTML+=data;
-        
-    }
-</script>
+    <h4 id='neatdata'>123</h4>
+
+    {% if data %}
+        <form id="quizForm">
+            {% for question_num, question_data in data.items %}
+                <h3>Question {{ question_num }}:</h3>
+                <p>{{ question_data.question }}</p>
+                <ul>
+                    {% for solution in question_data.solutions %}
+                        <li>
+                            <label>
+                                <input type="radio" name="question{{ question_num }}" value="{{ solution }}" />{{ solution }}
+                            </label>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+            <button type="submit">Submit</button>
+        </form>
+    {% endif %}
 </body>
 </html>
