@@ -8,27 +8,60 @@
 <body>
     <h1>TAKE TMA</h1>
     <button>Take Module Quiz</button>
-    <button onclick="location.href='{% url 'tma03' %}'">EXECUTE SCRIPT</button>
+    <button onclick="location.href='{% url 'tma03' %}'">TMA03</button>
     
-    <h4 id='neatdata'>123</h4>
+    <h4 id='neatdata'>TAKE TEST</h4>
 
     {% if data %}
-        <form id="quizForm">
-            {% for question_num, question_data in data.items %}
+        {% for question_num, question_data in data.items %}
+            <form id="quizForm{{ question_num }}">
                 <h3>Question {{ question_num }}:</h3>
                 <p>{{ question_data.question }}</p>
                 <ul>
                     {% for solution in question_data.solutions %}
                         <li>
                             <label>
-                                <input type="radio" name="question{{ question_num }}" value="{{ solution }}" />{{ solution }}
+                                {% if solution.0|slice:":1" == question_data.correctAnswer %}
+                                    <input type="radio" name="question{{ question_num }}" value="true" />{{ solution }}
+                                {% else %}
+                                    <input type="radio" name="question{{ question_num }}" value="{{ solution }}" />{{ solution }}
+                                {% endif %}
                             </label>
                         </li>
                     {% endfor %}
                 </ul>
-            {% endfor %}
-            <button type="submit">Submit</button>
-        </form>
+            </form>
+        {% endfor %}
     {% endif %}
+    
+    <button type="button" onclick="checkAnswers()" name="submitButton">Submit</button>
+    <button onclick="location.href='{% url 'tma03' %}'">Reset</button>
+    <h1 id="finalMarking"></h1>
+    
+    <script>
+        function checkAnswers() {
+            var correctCount = 0;
+            var radiosForms = document.getElementsByTagName("form");
+            for (var i = 0; i < radiosForms.length; i++) {
+                var form = radiosForms[i];
+                var radiosInputs = form.getElementsByTagName("input");
+                for (var j = 0; j < radiosInputs.length; j++) {
+                    var element = radiosInputs[j];
+                    if (element.checked && element.value === "true") {
+                        correctCount++;
+                        element.style.borderBottomColor = 'green';
+                    }
+                    element.checked = false;
+                }
+            }
+            document.getElementById("finalMarking").innerHTML = correctCount;
+        }
+    </script>
+    <br>
+    <br>
+    <br>
 </body>
 </html>
+
+<!-- lock results in place on submit,
+    check all results have been entered, produce text to nofity user if otherwise and reset all answers -->
