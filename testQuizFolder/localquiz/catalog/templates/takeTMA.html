@@ -33,28 +33,91 @@
             </form>
         {% endfor %}
     {% endif %}
-    
+
     <button type="button" onclick="checkAnswers()" name="submitButton">Submit</button>
     <button onclick="location.href='{% url 'tma03' %}'">Reset</button>
     <h1 id="finalMarking"></h1>
     
     <script>
+ function checkLabelsChecked() {
+  var forms = document.getElementsByTagName("form");
+
+  for (var i = 0; i < forms.length; i++) {
+    var labels = forms[i].getElementsByTagName("label");
+    var isChecked = false;
+
+    for (var j = 0; j < labels.length; j++) {
+      if (labels[j].querySelector("input[type='radio']:checked")) {
+        isChecked = true;
+        break;
+      }
+    }
+
+    if (!isChecked) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+
+
+function disableLabels() {
+  var forms = document.getElementsByTagName("form");
+
+  for (var i = 0; i < forms.length; i++) {
+    var labels = forms[i].getElementsByTagName("label");
+
+    for (var j = 0; j < labels.length; j++) {
+      var radioInput = labels[j].querySelector("input[type='radio']");
+      radioInput.disabled = true;
+    }
+  }
+}
+
+
+        function resetLabels() {
+  var forms = document.getElementsByTagName("form");
+
+  for (var i = 0; i < forms.length; i++) {
+    var labels = forms[i].getElementsByTagName("label");
+
+    for (var j = 0; j < labels.length; j++) {
+      var radioInput = labels[j].querySelector("input[type='radio']");
+      radioInput.checked = false;
+    }
+  }
+}
+
         function checkAnswers() {
-            var correctCount = 0;
-            var radiosForms = document.getElementsByTagName("form");
-            for (var i = 0; i < radiosForms.length; i++) {
-                var form = radiosForms[i];
-                var radiosInputs = form.getElementsByTagName("input");
-                for (var j = 0; j < radiosInputs.length; j++) {
-                    var element = radiosInputs[j];
-                    if (element.checked && element.value === "true") {
-                        correctCount++;
-                        element.style.borderBottomColor = 'green';
+            var resultChecked = checkLabelsChecked();
+            if (resultChecked === true){
+                disableLabels()
+                var forms = document.getElementsByTagName("form");
+                var correctCount = 0;
+
+                for (var i = 0; i < forms.length; i++) {
+                   var labels = forms[i].getElementsByTagName("label");
+
+                   for (var j = 0; j < labels.length; j++) {
+                      var radioInput = labels[j].querySelector("input[type='radio']");
+                      if (radioInput.checked && radioInput.value === "true") {
+                      correctCount++;
+                      } 
+                
                     }
-                    element.checked = false;
+                }         
+                if (correctCount >= forms.length * 0.75) {
+                document.getElementById("finalMarking").innerHTML = correctCount.toString()+ "PASS! Reset to Try again";
+                } else{
+                    document.getElementById("finalMarking").innerHTML = correctCount.toString()+ "Fail! Reset to Try again!";    
                 }
+
+            } else {
+                resetLabels();
+                document.getElementById("finalMarking").innerHTML = "You did not enter a result for each question. Please try again.";
             }
-            document.getElementById("finalMarking").innerHTML = correctCount;
         }
     </script>
     <br>
@@ -64,4 +127,12 @@
 </html>
 
 <!-- lock results in place on submit,
-    check all results have been entered, produce text to nofity user if otherwise and reset all answers -->
+    check all results have been entered, produce text to nofity user if otherwise and reset all answers 
+hide buttons before tma button clicked
+COMPLETED
+CHECK QUIZ WORKS
+Hide submit and reset buttons before tma03 button is pressed.
+Inform user of the correct answer for each question.
+style webpage
+add tma02, tma05
+double check tma03 in correct in txt file, check err website-->
