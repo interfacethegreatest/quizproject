@@ -1,138 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-    <h1>TAKE TMA</h1>
-    <button>Take Module Quiz</button>
-    <button onclick="location.href='{% url 'tma03' %}'">TMA03</button>
-    
-    <h4 id='neatdata'>TAKE TEST</h4>
+<script>
+  // JavaScript code here
+  window.addEventListener('load', function() {
+    // Get references to the buttons
+    var button1 = document.getElementById('submitButton');
+    var button2 = document.getElementById('resetButton');
+    var helpText = document.getElementById('userHelp');
 
-    {% if data %}
-        {% for question_num, question_data in data.items %}
-            <form id="quizForm{{ question_num }}">
-                <h3>Question {{ question_num }}:</h3>
-                <p>{{ question_data.question }}</p>
-                <ul>
-                    {% for solution in question_data.solutions %}
-                        <li>
-                            <label>
-                                {% if solution.0|slice:":1" == question_data.correctAnswer %}
-                                    <input type="radio" name="question{{ question_num }}" value="true" />{{ solution }}
-                                {% else %}
-                                    <input type="radio" name="question{{ question_num }}" value="{{ solution }}" />{{ solution }}
-                                {% endif %}
-                            </label>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </form>
-        {% endfor %}
-    {% endif %}
+    // Set the buttons to be hidden
+    button1.style.display = 'none';
+    button2.style.display = 'none';
+    helpText.style.display = 'none';
+  });
+</script>
 
-    <button type="button" onclick="checkAnswers()" name="submitButton">Submit</button>
-    <button onclick="location.href='{% url 'tma03' %}'">Reset</button>
-    <h1 id="finalMarking"></h1>
-    
-    <script>
- function checkLabelsChecked() {
-  var forms = document.getElementsByTagName("form");
+<h1>TAKE TMA</h1>
+<button>Take Module Quiz</button>
+<button onclick="location.href='{% url 'tma03' %}'; showSubmitAndReset()" class="takeTestButton">TMA03</button>
+<h4 id='userHelp2'>Please select a Test above:</h4>
 
-  for (var i = 0; i < forms.length; i++) {
-    var labels = forms[i].getElementsByTagName("label");
-    var isChecked = false;
+<p id ='userHelp'> Please answer each question:</p>
 
-    for (var j = 0; j < labels.length; j++) {
-      if (labels[j].querySelector("input[type='radio']:checked")) {
-        isChecked = true;
-        break;
+
+{% if data %}
+<script>
+  var helpText2 = document.getElementById('userHelp2');
+  helpText2.style.display = 'none';
+</script>
+{% for question_num, question_data in data.items %}
+  <form id="quizForm{{ question_num }}">
+    <h3>Question {{ question_num }}:</h3>
+    <p>{{ question_data.question }}</p>
+    <ul>
+      {% for solution in question_data.solutions %}
+        <li>
+          <label>
+            {% if solution.0|slice:":1" == question_data.correctAnswer %}
+              <input type="radio" name="question{{ question_num }}" value="true" />{{ solution }}
+            {% else %}
+              <input type="radio" name="question{{ question_num }}" value="{{ solution }}" />{{ solution }}
+            {% endif %}
+          </label>
+        </li>
+      {% endfor %}
+    </ul>
+    <h4 id="answer{{ question_num }}"></h4>
+  </form>
+{% endfor %}
+<button type="button" onclick="checkAnswers()" id="submitButton">Submit</button>
+<button onclick="location.href='{% url 'tma03' %}'" id="resetButton">Reset</button>
+{% endif %}
+
+<button type="button" onclick="checkAnswers()" id="submitButton">Submit</button>
+<button onclick="location.href='{% url 'tma03' %}'" id="resetButton">Reset</button>
+<h1 id="finalMarking"></h1>
+<br>
+<br>
+
+<script>
+  function checkLabelsChecked() {
+    var forms = document.getElementsByTagName("form");
+
+    for (var i = 0; i < forms.length; i++) {
+      var labels = forms[i].getElementsByTagName("label");
+      var isChecked = false;
+
+      for (var j = 0; j < labels.length; j++) {
+        if (labels[j].querySelector("input[type='radio']:checked")) {
+          isChecked = true;
+          break;
+        }
+      }
+
+      if (!isChecked) {
+        return false;
       }
     }
 
-    if (!isChecked) {
-      return false;
+    return true;
+  }
+
+  function disableLabels() {
+    var forms = document.getElementsByTagName("form");
+
+    for (var i = 0; i < forms.length; i++) {
+      var labels = forms[i].getElementsByTagName("label");
+
+      for (var j = 0; j < labels.length; j++) {
+        var radioInput = labels[j].querySelector("input[type='radio']");
+        radioInput.disabled = true;
+      }
     }
   }
 
-  return true;
-}
+  function resetLabels() {
+    var forms = document.getElementsByTagName("form");
 
+    for (var i = 0; i < forms.length; i++) {
+      var labels = forms[i].getElementsByTagName("label");
 
-
-function disableLabels() {
-  var forms = document.getElementsByTagName("form");
-
-  for (var i = 0; i < forms.length; i++) {
-    var labels = forms[i].getElementsByTagName("label");
-
-    for (var j = 0; j < labels.length; j++) {
-      var radioInput = labels[j].querySelector("input[type='radio']");
-      radioInput.disabled = true;
+      for (var j = 0; j < labels.length; j++) {
+        var radioInput = labels[j].querySelector("input[type='radio']");
+        radioInput.checked = false;
+      }
     }
   }
-}
 
+  function checkAnswers() {
+    var resultChecked = checkLabelsChecked();
 
-        function resetLabels() {
-  var forms = document.getElementsByTagName("form");
+    if (resultChecked === true) {
+      disableLabels();
 
-  for (var i = 0; i < forms.length; i++) {
-    var labels = forms[i].getElementsByTagName("label");
+      var forms = document.getElementsByTagName("form");
+      var correctCount = 0;
 
-    for (var j = 0; j < labels.length; j++) {
-      var radioInput = labels[j].querySelector("input[type='radio']");
-      radioInput.checked = false;
-    }
-  }
-}
+      for (var i = 0; i < forms.length; i++) {
+        var labels = forms[i].getElementsByTagName("label");
+        var trueText = "";
 
-        function checkAnswers() {
-            var resultChecked = checkLabelsChecked();
-            if (resultChecked === true){
-                disableLabels()
-                var forms = document.getElementsByTagName("form");
-                var correctCount = 0;
-
-                for (var i = 0; i < forms.length; i++) {
-                   var labels = forms[i].getElementsByTagName("label");
-
-                   for (var j = 0; j < labels.length; j++) {
-                      var radioInput = labels[j].querySelector("input[type='radio']");
-                      if (radioInput.checked && radioInput.value === "true") {
-                      correctCount++;
-                      } 
-                
-                    }
-                }         
-                if (correctCount >= forms.length * 0.75) {
-                document.getElementById("finalMarking").innerHTML = correctCount.toString()+ "PASS! Reset to Try again";
-                } else{
-                    document.getElementById("finalMarking").innerHTML = correctCount.toString()+ "Fail! Reset to Try again!";    
-                }
-
-            } else {
-                resetLabels();
-                document.getElementById("finalMarking").innerHTML = "You did not enter a result for each question. Please try again.";
-            }
+        for (var j = 0; j < labels.length; j++) {
+          var radioInput = labels[j].querySelector("input[type='radio']");
+          if (radioInput.checked && radioInput.value === "true") {
+            correctCount++;
+            trueText = labels[j].textContent;
+            break;
+          }
         }
-    </script>
-    <br>
-    <br>
-    <br>
+
+        var h4Element = document.getElementById("answer" + (i + 1));
+        if (trueText !== "") {
+          h4Element.textContent = "Correct," + trueText;
+          h4Element.style.color ="Green";
+        } else {
+          h4Element.textContent = "Wrong," + trueText;
+          h4Element.style.color ="Red";
+        }
+      }
+      correctCount++;
+      if (correctCount >= forms.length * 0.75) {
+        document.getElementById("finalMarking").innerHTML = correctCount.toString() + " PASS! Reset to Try again";
+      } else {
+        document.getElementById("finalMarking").innerHTML = correctCount.toString() + " Fail! Reset to Try again!";
+      }
+    
+    } else {
+      resetLabels();
+      document.getElementById("finalMarking").innerHTML = "You did not enter a result for each question. Please try again.";
+    }
+  }
+</script>
+<br>
+<br>
+<br>
 </body>
 </html>
-
-<!-- lock results in place on submit,
-    check all results have been entered, produce text to nofity user if otherwise and reset all answers 
-hide buttons before tma button clicked
-COMPLETED
-CHECK QUIZ WORKS
-Hide submit and reset buttons before tma03 button is pressed.
-Inform user of the correct answer for each question.
-style webpage
-add tma02, tma05
-double check tma03 in correct in txt file, check err website-->
