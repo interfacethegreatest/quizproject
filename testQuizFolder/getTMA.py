@@ -1,13 +1,42 @@
 from flask import Flask, jsonify
 import random
 
-app = Flask(__name__)
 
 def load_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
         return lines
-    
+
+def get_module_questions(txtFileLoc:str()):
+    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/module06.txt')
+    counter = 1
+    quizQuestions = dict()
+    for lines in questionLines:
+        lines.rstrip()
+        questionObject = lines.split('*')
+        questionObject[2] = questionObject[2].split('-')
+        questionObject[3] = questionObject[3].split('-')
+        if questionObject[0] =='M':
+            questionObject[3][-1] = questionObject[3][-1][0]
+            questionObj = {
+                "Type" : questionObject[0],
+                "Question": questionObject[1],
+                "Solutions": questionObject[2],
+                "correctAnswers": questionObject[3]}
+            quizQuestions[str(counter)] = questionObj
+        elif questionObject[0] =='F':
+            questionObject[3][-1] = questionObject[3][-1].rstrip()
+            questionObj = {
+                "Type" : questionObject[0],
+                "Question" : questionObject[1],
+                "Solutions" : questionObject[2],
+                "CorrectAnswers": questionObject[3]}
+            quizQuestions[str(counter)] = questionObj
+        print(quizQuestions[str(counter)])
+        counter+=1
+
+
+
 def get_questions():
     questionLines = load_file('questions.txt')
     questions = []
@@ -20,19 +49,7 @@ def get_questions():
         questions.append(questionObject)
     return questions
 
-@app.route('/generate_quiz_questions')
-def generate_quiz_questions():
-    questions = get_questions()
-    quizQuestions = []
-    for question in questions:
-        random.shuffle(question[1])
-        questionObj = {
-            "question": question[0],
-            "answers": question[1],
-            "correctAnswer": question[2]
-        }
-        quizQuestions.append(questionObj)
-    return jsonify(quizQuestions)
+
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    get_module_questions('test123')

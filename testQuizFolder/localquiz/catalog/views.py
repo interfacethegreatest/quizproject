@@ -22,7 +22,7 @@ def load_file(filename):
         lines = file.readlines()
         return lines
     
-def get_questions(string : str):
+def get_questions_TMA(string : str):
     questionLines = load_file(string)
     questions = []
     for lines in questionLines:
@@ -34,9 +34,13 @@ def get_questions(string : str):
         questions.append(questionObject)
     return questions
 
+def get_questions_module(file_location:str):
+    questionLines = load_file(file_location)
+    questions
+
 
 def take_tma_03(request):
-    questions = get_questions('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
+    questions = get_questions_TMA('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
     quizQuestions = dict()
     counter = 1
     for question in questions:
