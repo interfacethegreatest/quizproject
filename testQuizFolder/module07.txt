@@ -13,29 +13,29 @@ F* Brittleness: * Brittleness, is the opposite of _.-The tenedency for a materia
 F* Shear strength: *The ability to withstand offset loads without _. Generally considerably less than tensile strength.*fracture
 F* Compressive strength: * The ability to withstand squashing forces without being permanently _.*Crushed
 F* Deflection: *The ability of a mateiral to withstand a load without _ out of shape. *flexing
-F* Toughness : * The ability to withstand _. e.g. from a hammer blow.
+F* Toughness : * The ability to withstand _. e.g. from a hammer blow.*Impact
 F* Hardness: *The ability of a material to withstand _, indentation or scratching.The depth of the indentation is often measured which gives the hardness result.*scratching 
 F* _:* is the ability of a _ material to pass heat or electricity.*solid
 F* _ strength: *is the oppposite of _; it is the ability of a mateiral to resist an electrical field.*conductivity
 F* Creep: *Is the tendency of meterials to _ under stress over a period of _ and _.*deform-time-temperature
 F* Metal Fatigue: *Caused by repeated cyclic _. Metal fatigue is hard to detect, as _ fractures which are difficult to see can cause catastrophic _.*loading-failure
 F* Ferrous metals: *Carbon steels. The properties and characteristics of carbon steel depend on the quality of _ in the steel.Common carbon steel combinations are: -Dead mild steel at 0.05-0.15% carbon-Mild steel containing 0.15-0.3% carbon-Medium steel at 0.3-0.8%-High carbon steel 0.8-1.5%-Grey cast iron 1.7% carbon.*carbon
-F* Stainless steel: *One of the best chemical-corrosion resistant materials. Used extensively in food, marine and petrochemical industries.
+F* Stainless steel: *One of the best chemical-corrosion resistant materials. Used extensively in food, marine and petrochemical industries.*
 F* Stainless steels: *Martensitic, can be _. Used in chefs knives.*Hardened
 F* Stainless steels: *Ferritic, hard and _. Used where corrosion resistance is needed such as furnace parts.*brittle
-F* Stainless steels:* Austenitic, malleable and weldable. Commonly used in the medical industries.
-F* Stainless steels:* Duplex, malleable and weldable. Commonly used in the medical industries.
-F* Aluminium alloys: *White appearing, light weight and corrosion resistant and non-magnetric. Alluminium alloys are used for their commercial fast-repaired nature.
+F* Stainless steels:* Austenitic, malleable and weldable. Commonly used in the medical industries.*
+F* Stainless steels:* Duplex, malleable and weldable. Commonly used in the medical industries.*
+F* Aluminium alloys: *White appearing, light weight and corrosion resistant and non-magnetric. Alluminium alloys are used for their commercial fast-repaired nature.*
 F* Aluminium 5000 series: *These are containing _ with additions of magnesium. Known to quickly become work hardened with high tensile strength.-Easily weldable, heat treated and are corrosion resistant.*copper
 F* Lead: * Lead is exceptionally _, with good corrosion and chemical resistant properties. Although is also known to have poor _. Lead has poor soundproofing also, while being known as a common radiation _.*malleable-creep-shield
-F* Copper: *Copper alloys are good conductors of _ and _. They are very ductile and malleable. They can be easily joined with solder, ideal for plumbing.
+F* Copper: *Copper alloys are good conductors of _ and _. They are very ductile and malleable. They can be easily joined with solder, ideal for plumbing.*
 F* Brass: *Alloy of copper and between 29% and 40% zinc. Brass with lower than 36% zinc can be _ worked. Above 36% are hard and brittle.*cold
 F* Thermoplastics, Polyvinyl chloride* Polyvinyl chloride is a durable cheap, longlasting thermoplastic. Used extensively in the production of pipes, cables and guttery / upholstery. It is useful because it is resistant to _ and _. Because of its _ resistance it is used to make raincoats and shower curtains. When it burns it releases chlorine which inhibit _.*fire/water-fire/water-water-combustion
-F* Thermoplastics, poly methyl methacrylate:* PMMA or perspex is commonly _ or can be pigmented. Uses include aircraft windows, building panels, welding shields and screens.
+F* Thermoplastics, poly methyl methacrylate:* PMMA or perspex is commonly _ or can be pigmented. Uses include aircraft windows, building panels, welding shields and screens.*
 F* Thermosetting plastics :* Urea-formaldehyde, a hard-scratch resistant theromoplastic used in switches and plugs.-Epoxy resins, formed using polyester and a curing agent or _. When combined these chemicals provide an excellent curing agent for glass and are stiff and durable.*hardener
 F* Elastomers: *Natural rubbers, are highly _ and have excellent vibration _. This along with good creep makes them excellent use in tyres.-Ethylene-propylene Rubber (EPM). It is a good electrical insulator, flexible and ideal for use in flexible cables like those used in welding power leads.*elastic-absorbtion
 F* Composite: *Glass fibres , bonded in resin to form reinforced plastic. Known to be flexible and less-susceptible to fracturing.-Aramid fibres, commonly known as 'kevlar' fibres. With _ strength fives times that of steel. They are commonly used in aerospace and body armor.-Carbon fibres made from graphite carbon atoms, they form structures which are incredibly _ and stiff. Because they do not absorb water, enabling them to be used in marine, aircraft and racing industries.*tensile
-F* Ceramics: Glass, comprised of _ and oxygen, when glass is cooled it becomes transparent, hard and brittle.*silicon
+F* Ceramics: *Glass, comprised of _ and oxygen, when glass is cooled it becomes transparent, hard and brittle.*silicon
 F* Heat treatment of steel: *One means of treatment of steel by transformation into a crystaline structure known as body centered cubic (BCC). With one carbon in the centre and four around it, also known as _. This form is more stable at room temperatures.*ferrite
 F* Heat treatment of steel: *A second means of treatment of steel known as Face centre cubic or FCC, gamma iron or austensite. These structures, produced via _ are more stable at elevated temperatures.*heat
 F* Current: * Current is the flow of electrons around a circuit and is measured in _ (A)*Amperes

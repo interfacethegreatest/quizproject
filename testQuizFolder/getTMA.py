@@ -8,13 +8,14 @@ def load_file(filename):
         return lines
 
 def get_module_questions(txtFileLoc:str()):
-    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/module06.txt')
+    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/module07.txt')
     counter = 1
     quizQuestions = dict()
     for lines in questionLines:
         lines.rstrip()
         questionObject = lines.split('*')
         questionObject[2] = questionObject[2].split('-')
+        questionObject[3].rstrip()
         questionObject[3] = questionObject[3].split('-')
         if questionObject[0] =='M':
             questionObject[3][-1] = questionObject[3][-1][0]
