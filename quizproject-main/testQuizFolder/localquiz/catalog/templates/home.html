@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> HOME</h1>
+    <a href="{% url 'take_tma' %}" class="button-link">Take TMA</a>
+    <BUTTON onclick="location.href='{% url 'script'%}'"> EXECUTE SCRIPT</BUTTON>
+    <BUTTON onclick = "location.href='{%url 'moduleTest'%}'">Take Module Test</BUTTOn>
+    {% if data %}
+    {{data}}
+    {%endif%}
+
+<script>
+    
+</script>
+</body>
+</html>
