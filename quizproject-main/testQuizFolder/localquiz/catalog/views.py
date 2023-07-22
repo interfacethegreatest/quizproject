@@ -23,7 +23,7 @@ def take_module_page(request):
     return render(request, 'takeModule.html')
 
 def get_module_07(request):
-    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/module07.txt')
+    questionLines = load_file('/media/new/New Volume/quizproject-main/testQuizFolder/module07.txt')
     counter = 1
     quizQuestions = dict()
     for lines in questionLines:
@@ -49,6 +49,9 @@ def get_module_07(request):
             quizQuestions[str(counter)] = questionObj
         print(quizQuestions[str(counter)])
         counter+=1
+    with open("requestedModule.json", "w") as write_file:
+        json.dump(quizQuestions, write_file, indent=4)
+
     return render(request, 'takeModule.html', {'data': quizQuestions})
 
 
@@ -70,10 +73,14 @@ def get_questions_TMA(string : str):
     return questions
 
 
-
+def add(request):
+    val1 = int(request.POST["num1"])
+    val2 = int(request.POST["num2"])
+    res = request.POST["num1"] + "+" + request.POST["num2"] + "=" + str(val1+val2)
+    return render(request, 'home.html', {'result':res})
 
 def take_tma_03(request):
-    questions = get_questions_TMA('/home/kali/Documents/quizproject-main/testQuizFolder/TMA03.txt')
+    questions = get_questions_TMA('/media/new/New Volume/quizproject-main/testQuizFolder/TMA03.txt')
     quizQuestions = dict()
     counter = 1
     for question in questions:

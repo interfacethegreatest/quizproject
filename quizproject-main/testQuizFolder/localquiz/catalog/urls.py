@@ -4,7 +4,7 @@ from . import views
 
 urlpatterns = [
     path('', views.button),
-    
+    path('add', views.add, name='add'),
     path('takeModule/', views.take_module_page, name ='moduleTest'),
     path('output/', views.output, name='script'),
     path('takeTMA/', views.take_tma_view, name='take_tma'),
