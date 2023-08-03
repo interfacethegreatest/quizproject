@@ -6,7 +6,8 @@ from json import dumps
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from .forms import CatalogStringForm
-
+from pathlib import Path
+import os 
 # Create your views here.
 def output(request):
     data = requests.get("https://reqres.in/api/users")
@@ -22,8 +23,8 @@ def take_tma_view(request):
 def take_module_page(request):
     return render(request, 'takeModule.html')
 
-def get_module_07(request):
-    questionLines = load_file('/media/new/New Volume/quizproject-main/testQuizFolder/module07.txt')
+def get_module(module_loc):
+    questionLines = load_file(module_loc)
     counter = 1
     quizQuestions = dict()
     for lines in questionLines:
@@ -52,7 +53,6 @@ def get_module_07(request):
     with open("requestedModule.json", "w") as write_file:
         json.dump(quizQuestions, write_file, indent=4)
 
-    return render(request, 'takeModule.html', {'data': quizQuestions})
 
 
 def load_file(filename):
@@ -74,13 +74,20 @@ def get_questions_TMA(string : str):
 
 
 def add(request):
-    val1 = int(request.POST["num1"])
-    val2 = int(request.POST["num2"])
-    res = request.POST["num1"] + "+" + request.POST["num2"] + "=" + str(val1+val2)
-    return render(request, 'home.html', {'result':res})
+    modules = ['05','06','07']
+    result ='false'
+    val1 = request.POST["num1"]
+    for values in modules:
+        if val1 == values:
+            file ='\module'+val1+'.txt'
+            path = os.getcwd()+file
+            result = get_module(path)
+    return render(request, 'takeModule.html', {'result':result})
 
 def take_tma_03(request):
-    questions = get_questions_TMA('/media/new/New Volume/quizproject-main/testQuizFolder/TMA03.txt')
+    file = '\TMA03.txt'
+    path = os.getcwd()+file
+    questions = get_questions_TMA(path)
     quizQuestions = dict()
     counter = 1
     for question in questions:
@@ -91,7 +98,6 @@ def take_tma_03(request):
         }
         quizQuestions[str(counter)] = questionObj
         counter += 1
-
     response  = quizQuestions
     return render(request, 'takeTMA.html', {'data' : quizQuestions})
 

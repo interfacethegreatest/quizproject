@@ -1,6 +1,7 @@
 import json
 import random
-
+from pathlib import Path
+import os
 
 def load_file(filename):
     with open(filename, 'r') as file:
@@ -8,7 +9,7 @@ def load_file(filename):
         return lines
 
 def get_module_questions(txtFileLoc:str()):
-    questionLines = load_file('/home/kali/Documents/quizproject-main/testQuizFolder/module07.txt')
+    questionLines = load_file('C:/Users/esing/Downloads/quizproject-main/quizproject-main/quizproject-main/testQuizFolder/module05.txt')
     counter = 1
     quizQuestions = dict()
     for lines in questionLines:
@@ -52,9 +53,11 @@ def get_questions():
     return questions
 
 
-
 if __name__ == '__main__':
-    get_module_questions('test123')
+    print(get_module_questions('12'))
+            
+    
+
 
 
 ''' 12/06/2023
