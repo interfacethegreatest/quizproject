@@ -9,11 +9,12 @@ def load_file(filename):
         return lines
 
 def get_module_questions(txtFileLoc:str()):
-    questionLines = load_file('C:/Users/esing/Downloads/quizproject-main/quizproject-main/quizproject-main/testQuizFolder/module07.txt')
+    questionLines = load_file('C:/Users/esing/Downloads/quizproject-main/quizproject-main/quizproject-main/testQuizFolder/Oxy-acetylene Test.txt')
     counter = 1
+    
     quizQuestions = dict()
     for lines in questionLines:
-        lines.rstrip()
+        print(counter)
         questionObject = lines.split('*')
         questionObject[2] = questionObject[2].split('-')
         questionObject[3].rstrip()

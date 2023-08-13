@@ -52,6 +52,7 @@ def get_module(module_loc):
         counter+=1
     with open("requestedModule.json", "w") as write_file:
         json.dump(quizQuestions, write_file, indent=4)
+    return quizQuestions
 
 
 
