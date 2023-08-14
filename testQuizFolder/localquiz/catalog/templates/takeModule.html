@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<h1>Select a module from 05,06,07 below.</h1>
+<div>
+<h1 style="display: flex; justify-content: center;">Select a module from 05,06,07 below.</h1>
+<div style="display: flex; justify-content: center;">
 <form action="add" method = 'post'>
 {% csrf_token %}
 enter 05 ,06 or 07. : <input type="text" name = "num1"> <br>
+</div>
+<div style="display: flex; justify-content: center;">
+<div>
         <input type="submit">  
 </form>
-    {%block content %}
-     Result : {{result}}
-    {% endblock %}
+</div>
+<br><br>
+<div style="padding-left: 5%;">
+    <BUTTON onclick = "location.href='{%url 'moduleTest'%}'"> return </button>
+</div>
+</div>
+{% if result %}
+{{result}}
+<script src="appModule.js"; type="module"></script>
+{%endif%}
 
-    {% if data %}
-    {{data}}
-    {%endif%}
 </html>

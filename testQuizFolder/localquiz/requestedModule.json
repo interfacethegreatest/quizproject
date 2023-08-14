@@ -1,507 +1,289 @@
 {
     "1": {
         "Type": "F",
-        "Question": " Atoms can be described as having: ",
+        "Question": " Orthographic projection: ",
         "Solutions": [
-            " a very small negative electrical charge surrounding a larger and heavier centre called a _. This contains a densely packed protons which carry a positive charge."
+            "This is conveyed the conventional way of drawing _, within this projection of drawing, _ _ and _ angle."
         ],
         "CorrectAnswers": [
-            "nucleus"
+            "components",
+            "first",
+            "angle",
+            "third"
         ]
     },
     "2": {
         "Type": "F",
-        "Question": " The most stable configuration of atoms have: ",
+        "Question": " First angle (Orthographic projection): ",
         "Solutions": [
-            "_ atoms in their outer shell"
+            "Often referred to as the _ representation in which the drawing is presented with a _ pattern. The _ elevation is laid out first at the top of the paper, with _ views either side and a _ view immediately below the front."
         ],
         "CorrectAnswers": [
-            "eight/8"
+            "imperial",
+            "front",
+            "end",
+            "plan"
         ]
     },
     "3": {
         "Type": "F",
-        "Question": " Molecules :",
+        "Question": " Third angle (Orthographic projection): ",
         "Solutions": [
-            " Containing two or more _ are called a _."
+            "Often reffered to as the _ representation, is laid out with the _ immediately above the _. "
         ],
         "CorrectAnswers": [
-            "element",
-            "compound"
+            "american",
+            "plan",
+            "front"
         ]
     },
     "4": {
-        "Type": "F",
-        "Question": " Mixtures: ",
+        "Type": "M",
+        "Question": " Production drawings are classified in two major categories",
         "Solutions": [
-            " Mixtures are the combinations of two or more elements that can be separated _ a chemical reaction."
+            "A true",
+            "B false"
         ],
-        "CorrectAnswers": [
-            "without"
+        "correctAnswers": [
+            "A"
         ]
     },
     "5": {
         "Type": "F",
-        "Question": " Plastics: ",
+        "Question": " Assembly drawings : ",
         "Solutions": [
-            " Carbon",
-            "based compounds are the basis of all of the plastics and more importantly life. Carbon",
-            "based compounds are constructed from a small number of elements: _, _ and _ mainly."
+            "These show how parts _ _ or are functionally related"
         ],
         "CorrectAnswers": [
-            "oxygen/carbon/hydrogen",
-            "oxygen/carbon/hydrogen",
-            "oxygen/carbon/hydrogen"
+            "fit",
+            "toghether"
         ]
     },
     "6": {
         "Type": "F",
-        "Question": " Monomers: ",
+        "Question": " Circuit Wiring Diagrams: ",
         "Solutions": [
-            " A monomer is a molecule that is able to bond with other _'s to form _ _"
+            "A wiring digram is a simplified conventional pictorial representation of an _  ciruit. It shows the _ of the circuit as simplified shapes, and the power and signal connections between devices. A pictoral diagram would show more detail of the _ appearance, while a wiring diagram a more _ notation."
         ],
         "CorrectAnswers": [
-            "monomer/monomers",
-            "long",
-            "chain/chains"
+            "electrical",
+            "components",
+            "physical",
+            "symbolic"
         ]
     },
     "7": {
         "Type": "F",
-        "Question": " Polymers: ",
+        "Question": " Pictorial Projection: ",
         "Solutions": [
-            " Can be made up of thousands of _, linking up monomers is called _."
+            "One drawing will show three views and within this group, once again two distinct versions exist _ and _ projection. In isometric projection the view is built around _ planes. In Oblique projection the view is built along _."
         ],
         "CorrectAnswers": [
-            "monomers",
-            "polymerisation"
+            "isometric",
+            "oblique",
+            "three",
+            "two"
         ]
     },
     "8": {
         "Type": "F",
-        "Question": " Metal properties : Tensile strength",
+        "Question": " Engineering Detail Layout: ",
         "Solutions": [
-            " Tensile strength is the measure of a metals abilities to withstand being pulled apart or a stretching load. There are two types of tensile strength measurements: ",
-            "Ultimate tensile _, which is the maximum _ a material can hold.",
-            "The proof load, or _ point. Measuring the point at which the material becomes _."
+            "Engineering drawing starts with selecting the correct _ of paper on which to design the component. Having selected the _, it is standard practice to construct a _ and a block tile to house specific detail relative to the _. Typical information includes; ",
+            "Name of draughtsman ",
+            "_ of issue",
+            "Scale",
+            "Projection",
+            "Material _",
+            "Surface finish"
         ],
         "CorrectAnswers": [
-            "strength",
-            "load",
-            "yield",
-            "deformed"
+            "size",
+            "size",
+            "border",
+            "component",
+            "composition"
         ]
     },
     "9": {
         "Type": "F",
-        "Question": " Elasticity:",
+        "Question": " In engineering: ",
         "Solutions": [
-            " The measure of a material to be able to return back to its original shape after being _ by a force or a load."
+            "To create a compositional _, we must also recognise the type of line we should use: ",
+            "Part outlines identify _ lines.",
+            "Section lines identify light lines.",
+            "Hidden lines identify medium broken up lines. Center lines identify _, broken lines.",
+            "_ and Extension lines identify light solid lines with measurements.",
+            "_ Lines represent Heavy and light lines with jagged notation."
         ],
         "CorrectAnswers": [
-            "stretched"
+            "design",
+            "heavy",
+            "light",
+            "dimension",
+            "break"
         ]
     },
     "10": {
         "Type": "F",
-        "Question": " Ductility: ",
+        "Question": " Conventional Representation: ",
         "Solutions": [
-            " The measure of a the ability to be drawn into a wire or tube without fractrue or failure. The ductility is measured in a tensile test machine by measuring how far it stretched from it's _ length."
+            " Conventional representation of common features is often used to cut unnecessary _ out of a drawing, saving time and helping to keep the drawing _."
         ],
         "CorrectAnswers": [
-            "original"
+            "detail",
+            "clear"
         ]
     },
     "11": {
         "Type": "F",
-        "Question": " Malleability: ",
+        "Question": " Hacksaws : ",
         "Solutions": [
-            " The ability to be formed or bent into a shape without _ or _. Materials which are highly malleable tend to be _. ",
-            "As materials are formed grains become more tightly compressed and the material becomes less malleable, this is known as work _."
+            " The blade has a large number of _ and once again the _ and _ angles are used. Always however the slot to be cut is slightly _ than the blade thickness, this prevents jamming during use"
         ],
         "CorrectAnswers": [
-            "fracture/failure",
-            "fracture/failure",
-            "ductile",
-            "hardening"
+            "teeth",
+            "rake",
+            "clearance",
+            "wider"
         ]
     },
     "12": {
         "Type": "F",
-        "Question": " Brittleness: ",
+        "Question": " Sectional Views: ",
         "Solutions": [
-            " Brittleness, is the opposite of _.",
-            "The tenedency for a material to 'brittle fracture' without bending or changing shape."
+            "Whist some detail can be shown on a drawing, more precise detail must be indicated as if a component were cut. First, the drawing must indicate which face is being viewed. This is done by placing _ at extreme ends of the line which represents the imaginary cut. However if the views of the detail being shown are identical in both _ the arrows may be omitted."
         ],
         "CorrectAnswers": [
-            "malleability"
+            "arrows",
+            "directions"
         ]
     },
     "13": {
         "Type": "F",
-        "Question": " Shear strength: ",
+        "Question": " Dimensioning and Tolerances: ",
         "Solutions": [
-            "The ability to withstand offset loads without _. Generally considerably less than tensile strength."
+            " It tells the manufacturing staff and machines what degree of accuracy and precision is needed of each facet or part. Dimensioning specifications define as",
+            "intended geometry. One example is a basic dimension. Tolerance specifications define the allowable _ for the form and possibly the size of induvidual features. Examples include linear dimensions and feature control frames using a _ reference."
         ],
         "CorrectAnswers": [
-            "fracture"
+            "variation",
+            "datum"
         ]
     },
     "14": {
         "Type": "F",
-        "Question": " Compressive strength: ",
+        "Question": " Vices : ",
         "Solutions": [
-            " The ability to withstand squashing forces without being permanently _."
+            "Available for a wide range of applications, but in all cases should only be tightened with sufficient force to _ movement. Over tightening a vice will distort or _ the work peice or lead to the vice itself being damaged. "
         ],
         "CorrectAnswers": [
-            "Crushed"
+            "restrict",
+            "damage"
         ]
     },
     "15": {
         "Type": "F",
-        "Question": " Deflection: ",
+        "Question": " Rake and clearance angles: ",
         "Solutions": [
-            "The ability of a mateiral to withstand a load without _ out of shape. "
+            "Back rake is designed to control the direction in which a chip is sent. Side rake along with back rake controls the _ flow. It partly counteracts resistance to the movement of the cutter and can be set to suit the particular materical being cut. Clearance angles are designed to ensure rapid clearance of material and ensure no part of the tool beside the cutting edge can touch the work."
         ],
         "CorrectAnswers": [
-            "flexing"
+            "chip"
         ]
     },
     "16": {
         "Type": "F",
-        "Question": " Toughness : ",
+        "Question": " Non-chip forming processes : ",
         "Solutions": [
-            " The ability to withstand _. e.g. from a hammer blow."
+            " Guillotines, hand",
+            "shears, portable shears ",
+            "Snips",
+            "Punching tools",
+            "cropping machines",
+            " These operate on the premise that initial impact causes the material to be cut because there is a fixed blade and a moving blade and serverance occurs because the moving blade has designated _."
         ],
         "CorrectAnswers": [
-            "Impact"
+            "clearance"
         ]
     },
     "17": {
         "Type": "F",
-        "Question": " Hardness: ",
+        "Question": " Emergent problem sequence: ",
         "Solutions": [
-            "The ability of a material to withstand _, indentation or scratching.The depth of the indentation is often measured which gives the hardness result."
+            "The real problem must be determined. Beware erroneuous data. A case of this type where there may be more than one problem is a _ problem or in systems terminology a '_'."
         ],
         "CorrectAnswers": [
-            "scratching"
+            "compound",
+            "mess"
         ]
     },
     "18": {
         "Type": "F",
-        "Question": " _:",
+        "Question": " Adhesion can occur in two ways: ",
         "Solutions": [
-            " is the ability of a _ material to pass heat or electricity."
+            "A Mechanical interlocking : where adhesives penetrate the pores of the adherands and produces physical cementing. ",
+            "B specific bonding: where adherents react chemically bonding them through inter",
+            "molecular _.",
+            "C Cohesion which is the ability of the adhesive to withstand forces within itself without failure."
         ],
         "CorrectAnswers": [
-            "solid"
+            "attraction"
         ]
     },
     "19": {
         "Type": "F",
-        "Question": " _ strength: ",
+        "Question": " Types of adhesives: ",
         "Solutions": [
-            "is the oppposite of _; it is the ability of a mateiral to resist an electrical field."
+            "Thermo",
+            "plastic, adhesives which soften when cooled, the cycle being _.",
+            "Thermo setting, adhesives which are set to a permanent shape. They need heating and pressure and will not re",
+            "_."
         ],
         "CorrectAnswers": [
-            "conductivity"
+            "repeated",
+            "soften"
         ]
     },
     "20": {
         "Type": "F",
-        "Question": " Creep: ",
+        "Question": " Paralax Error : ",
         "Solutions": [
-            "Is the tendency of meterials to _ under stress over a period of _ and _."
+            " Parallax error is the result of any sideways positioning of the direction of sighting. It is therefore important to ensure that the eye is at 90 degrees to the work surface in order to get a _ reading."
         ],
         "CorrectAnswers": [
-            "deform",
-            "time",
-            "temperature"
+            "true"
         ]
     },
     "21": {
         "Type": "F",
-        "Question": " Metal Fatigue: ",
+        "Question": " Rectangular coordinates: ",
         "Solutions": [
-            "Caused by repeated cyclic _. Metal fatigue is hard to detect, as _ fractures which are difficult to see can cause catastrophic _."
+            "These are coordinates in which dimensions are at _ angles to one another."
         ],
         "CorrectAnswers": [
-            "loading",
-            "failure"
+            "right"
         ]
     },
     "22": {
         "Type": "F",
-        "Question": " Ferrous metals: ",
+        "Question": " Polar coordinates: ",
         "Solutions": [
-            "Carbon steels. The properties and characteristics of carbon steel depend on the quality of _ in the steel.Common carbon steel combinations are: ",
-            "Dead mild steel at 0.05",
-            "0.15% carbon",
-            "Mild steel containing 0.15",
-            "0.3% carbon",
-            "Medium steel at 0.3",
-            "0.8%",
-            "High carbon steel 0.8",
-            "1.5%",
-            "Grey cast iron 1.7% carbon."
+            "Where a dimension is measured in a radial line from the _."
         ],
         "CorrectAnswers": [
-            "carbon"
+            "datum"
         ]
     },
     "23": {
         "Type": "F",
-        "Question": " Stainless steel: ",
+        "Question": " Chain and progressive dimensioning: ",
         "Solutions": [
-            "One of the best chemical",
-            "corrosion resistant materials. Used extensively in food, marine and petrochemical industries."
+            " Chain dimensioning is where each dimension is taken from the previous dimension and this can result in cumulative _, where discrepancies in one dimension are magnified along the plate. Progressive dimensioning is where dimensions are taken from a 'known' _. If there is a discrepancy it will only impact on that particular dimension, increasing accuracy overall. "
         ],
         "CorrectAnswers": [
-            ""
-        ]
-    },
-    "24": {
-        "Type": "F",
-        "Question": " Stainless steels: ",
-        "Solutions": [
-            "Martensitic, can be _. Used in chefs knives."
-        ],
-        "CorrectAnswers": [
-            "Hardened"
-        ]
-    },
-    "25": {
-        "Type": "F",
-        "Question": " Stainless steels: ",
-        "Solutions": [
-            "Ferritic, hard and _. Used where corrosion resistance is needed such as furnace parts."
-        ],
-        "CorrectAnswers": [
-            "brittle"
-        ]
-    },
-    "26": {
-        "Type": "F",
-        "Question": " Stainless steels:",
-        "Solutions": [
-            " Austenitic, malleable and weldable. Commonly used in the medical industries."
-        ],
-        "CorrectAnswers": [
-            ""
-        ]
-    },
-    "27": {
-        "Type": "F",
-        "Question": " Stainless steels:",
-        "Solutions": [
-            " Duplex, malleable and weldable. Commonly used in the medical industries."
-        ],
-        "CorrectAnswers": [
-            ""
-        ]
-    },
-    "28": {
-        "Type": "F",
-        "Question": " Aluminium alloys: ",
-        "Solutions": [
-            "White appearing, light weight and corrosion resistant and non",
-            "magnetric. Alluminium alloys are used for their commercial fast",
-            "repaired nature."
-        ],
-        "CorrectAnswers": [
-            ""
-        ]
-    },
-    "29": {
-        "Type": "F",
-        "Question": " Aluminium 5000 series: ",
-        "Solutions": [
-            "These are containing _ with additions of magnesium. Known to quickly become work hardened with high tensile strength.",
-            "Easily weldable, heat treated and are corrosion resistant."
-        ],
-        "CorrectAnswers": [
-            "copper"
-        ]
-    },
-    "30": {
-        "Type": "F",
-        "Question": " Lead: ",
-        "Solutions": [
-            " Lead is exceptionally _, with good corrosion and chemical resistant properties. Although is also known to have poor _. Lead has poor soundproofing also, while being known as a common radiation _."
-        ],
-        "CorrectAnswers": [
-            "malleable",
-            "creep",
-            "shield"
-        ]
-    },
-    "31": {
-        "Type": "F",
-        "Question": " Copper: ",
-        "Solutions": [
-            "Copper alloys are good conductors of _ and _. They are very ductile and malleable. They can be easily joined with solder, ideal for plumbing."
-        ],
-        "CorrectAnswers": [
-            ""
-        ]
-    },
-    "32": {
-        "Type": "F",
-        "Question": " Brass: ",
-        "Solutions": [
-            "Alloy of copper and between 29% and 40% zinc. Brass with lower than 36% zinc can be _ worked. Above 36% are hard and brittle."
-        ],
-        "CorrectAnswers": [
-            "cold"
-        ]
-    },
-    "33": {
-        "Type": "F",
-        "Question": " Thermoplastics, Polyvinyl chloride",
-        "Solutions": [
-            " Polyvinyl chloride is a durable cheap, longlasting thermoplastic. Used extensively in the production of pipes, cables and guttery / upholstery. It is useful because it is resistant to _ and _. Because of its _ resistance it is used to make raincoats and shower curtains. When it burns it releases chlorine which inhibit _."
-        ],
-        "CorrectAnswers": [
-            "fire/water",
-            "fire/water",
-            "water",
-            "combustion"
-        ]
-    },
-    "34": {
-        "Type": "F",
-        "Question": " Thermoplastics, poly methyl methacrylate:",
-        "Solutions": [
-            " PMMA or perspex is commonly _ or can be pigmented. Uses include aircraft windows, building panels, welding shields and screens."
-        ],
-        "CorrectAnswers": [
-            ""
-        ]
-    },
-    "35": {
-        "Type": "F",
-        "Question": " Thermosetting plastics :",
-        "Solutions": [
-            " Urea",
-            "formaldehyde, a hard",
-            "scratch resistant theromoplastic used in switches and plugs.",
-            "Epoxy resins, formed using polyester and a curing agent or _. When combined these chemicals provide an excellent curing agent for glass and are stiff and durable."
-        ],
-        "CorrectAnswers": [
-            "hardener"
-        ]
-    },
-    "36": {
-        "Type": "F",
-        "Question": " Elastomers: ",
-        "Solutions": [
-            "Natural rubbers, are highly _ and have excellent vibration _. This along with good creep makes them excellent use in tyres.",
-            "Ethylene",
-            "propylene Rubber (EPM). It is a good electrical insulator, flexible and ideal for use in flexible cables like those used in welding power leads."
-        ],
-        "CorrectAnswers": [
-            "elastic",
-            "absorbtion"
-        ]
-    },
-    "37": {
-        "Type": "F",
-        "Question": " Composite: ",
-        "Solutions": [
-            "Glass fibres , bonded in resin to form reinforced plastic. Known to be flexible and less",
-            "susceptible to fracturing.",
-            "Aramid fibres, commonly known as 'kevlar' fibres. With _ strength fives times that of steel. They are commonly used in aerospace and body armor.",
-            "Carbon fibres made from graphite carbon atoms, they form structures which are incredibly _ and stiff. Because they do not absorb water, enabling them to be used in marine, aircraft and racing industries."
-        ],
-        "CorrectAnswers": [
-            "tensile"
-        ]
-    },
-    "38": {
-        "Type": "F",
-        "Question": " Ceramics: ",
-        "Solutions": [
-            "Glass, comprised of _ and oxygen, when glass is cooled it becomes transparent, hard and brittle."
-        ],
-        "CorrectAnswers": [
-            "silicon"
-        ]
-    },
-    "39": {
-        "Type": "F",
-        "Question": " Heat treatment of steel: ",
-        "Solutions": [
-            "One means of treatment of steel by transformation into a crystaline structure known as body centered cubic (BCC). With one carbon in the centre and four around it, also known as _. This form is more stable at room temperatures."
-        ],
-        "CorrectAnswers": [
-            "ferrite"
-        ]
-    },
-    "40": {
-        "Type": "F",
-        "Question": " Heat treatment of steel: ",
-        "Solutions": [
-            "A second means of treatment of steel known as Face centre cubic or FCC, gamma iron or austensite. These structures, produced via _ are more stable at elevated temperatures."
-        ],
-        "CorrectAnswers": [
-            "heat"
-        ]
-    },
-    "41": {
-        "Type": "F",
-        "Question": " Current: ",
-        "Solutions": [
-            " Current is the flow of electrons around a circuit and is measured in _ (A)"
-        ],
-        "CorrectAnswers": [
-            "Amperes"
-        ]
-    },
-    "42": {
-        "Type": "F",
-        "Question": " Voltage: ",
-        "Solutions": [
-            " Voltage is the force or pressure causing current to flow. This force causes one end of a circuit to be _ charged and have an excess of electrons, whilst the other end has a _ of electrons and is positively charged. Voltage is therefore related to the _ difference. "
-        ],
-        "CorrectAnswers": [
-            "negatively",
-            "shortage",
-            "potential"
-        ]
-    },
-    "43": {
-        "Type": "F",
-        "Question": " Resistance: ",
-        "Solutions": [
-            " Measured in _. For a given voltage the amount of current that will flow in a curcuit is determined by the ease at which the circuit allows the current to pass. The greater the resistance the lower the _."
-        ],
-        "CorrectAnswers": [
-            "ohms",
-            "current"
-        ]
-    },
-    "44": {
-        "Type": "F",
-        "Question": " Ohms law: ",
-        "Solutions": [
-            "Voltage (_) = Current (amps) x Resistance (_) "
-        ],
-        "CorrectAnswers": [
-            "volts",
-            "ohms"
-        ]
-    },
-    "45": {
-        "Type": "F",
-        "Question": " Power : ",
-        "Solutions": [
-            " The voltage _ drives a current through a resistance, electrical energy is transferred. The rate at which this transfer takes place is called the electrical power. The unit of power is the _ (W) which is a rather small unit so electrical power is often measured in _ (kW) one kW is a thousand _. "
-        ],
-        "CorrectAnswers": [
-            "pressure",
-            "watt/watts",
-            "kilowatt/kilowatts",
-            "watts"
+            "error",
+            "datum"
         ]
     }
 }
