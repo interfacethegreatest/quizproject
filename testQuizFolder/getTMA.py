@@ -36,8 +36,7 @@ def get_module_questions(txtFileLoc:str()):
             quizQuestions[str(counter)] = questionObj
         print(quizQuestions[str(counter)])
         counter+=1
-    questions = json.dumps(quizQuestions)
-    return questions
+    return quizQuestions
 
 
 def get_questions():
@@ -52,9 +51,15 @@ def get_questions():
         questions.append(questionObject)
     return questions
 
-
+def get_module_question_string(question_num: int, module_dict):
+    q = module_dict
+    return q[question_num]
+    
 if __name__ == '__main__':
-    print(get_module_questions('12'))
+    test = get_module_questions('12')
+    get_module_question_string(1, test)
+    
+    
             
     
 

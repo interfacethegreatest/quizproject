@@ -2,6 +2,7 @@ from django.shortcuts import render
 import requests
 import json
 from django.http import JsonResponse
+from django.http import HttpResponse
 from json import dumps
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
@@ -9,6 +10,9 @@ from .forms import CatalogStringForm
 from pathlib import Path
 import os 
 # Create your views here.
+
+
+
 def output(request):
     data = requests.get("https://reqres.in/api/users")
     data = data.text
@@ -22,6 +26,11 @@ def take_tma_view(request):
 
 def take_module_page(request):
     return render(request, 'takeModule.html')
+
+def take_module_question(request):
+ dest1 = Destination()
+ return render(request, 'testModule.html', {'full_question' : dest1 })
+
 
 def get_module(module_loc):
     questionLines = load_file(module_loc)
@@ -56,6 +65,8 @@ def get_module(module_loc):
 
 
 
+
+
 def load_file(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
@@ -82,8 +93,57 @@ def add(request):
         if val1 == values:
             file ='\module'+val1+'.txt'
             path = os.getcwd()+file
-            result = get_module(path)
-    return render(request, 'takeModule.html', {'result':result})
+            res = get_module(path)
+            increment_test()
+    return render(request, 'testModule.html', {'result':res})
+ 
+
+def get_module_question(question_number :int , quizQuestions : dict):
+    return quizQuestions[question_number]
+
+def increment_test():
+    path = os.getcwd() + '\note.txt'
+    text_file = load_file(path)
+    test_details = text_file[0]
+    test_details = test_details.split(',')
+    test_details[0] = str(1+int(test_details[0]))
+    write_text = test_details[0] + ','+ test_details[1]
+    with open(os.getcwd()+'\note.txt', 'w') as f:
+        f.write(write_text)
+
+def get_moduleQuiz_mark():
+    text_file = load_file(os.getcwd()+'\note.txt')
+    test_details = text_file[0]
+    test_details = test_details.split(',')
+    return int(test_details[1])
+
+def get_moduleQuiz_question_number():
+    text_file = load_file(os.getcwd()+'\note.txt')
+    test_details = text_file[0]
+    test_details = test_details.split(',')
+    return int(test_details[0])
+
+def increment_answers():
+    text_file = load_file(os.getcwd()+'\note.txt')
+    test_details = text_file[0]
+    test_details = test_details.split(',')
+    test_details[1] = str(1+int(test_details[0]))
+    write_text = test_details[0] + ','+ test_details[1]
+    with open(os.getcwd()+'\note.txt', 'w') as f:
+        f.write(write_text)
+
+def new_test():
+    text_file = load_file(os.getcwd()+'\note.txt')
+    test_details = text_file[0]
+    test_details = test_details.split(',')
+    test_details[0] = '1'
+    test_details[1] = '0'
+    write_text = test_details[0] + ','+ test_details[1]
+    with open(os.getcwd()+'\note.txt', 'w') as f:
+        f.write(write_text)
+    
+
+
 
 def take_tma_03(request):
     file = '\TMA03.txt'
