@@ -9,6 +9,7 @@ from django.shortcuts import render
 from .forms import CatalogStringForm
 from pathlib import Path
 import os 
+from .models import question
 # Create your views here.
 
 
@@ -28,8 +29,18 @@ def take_module_page(request):
     return render(request, 'takeModule.html')
 
 def take_module_question(request):
- dest1 = Destination()
- return render(request, 'testModule.html', {'full_question' : dest1 })
+ dest1 = question()
+ 
+ file ='\module'+get_module_number()+'.txt'
+ path = os.getcwd()+file
+ question_no = get_moduleQuiz_question_number()
+ res = get_module(path)
+ res = res[str(question_no)]
+ increment_test_question()
+ dest1.module_number = get_module_number()
+ question_count = str(question_no) + '/'+ str(get_no_of_test_questions())
+ dest2 = (res, get_module_number(), question_count )
+ return render(request, 'testModule.html/', {'dest2' : dest2 })
 
 
 def get_module(module_loc):
@@ -91,55 +102,62 @@ def add(request):
     val1 = request.POST["num1"]
     for values in modules:
         if val1 == values:
-            file ='\module'+val1+'.txt'
+           new_test(val1)
+           ''' file ='\module'+val1+'.txt'
             path = os.getcwd()+file
-            res = get_module(path)
-            increment_test()
-    return render(request, 'testModule.html', {'result':res})
- 
+            res = get_module(path)'''
+          
+    return render(request, 'testModule.html')
 
-def get_module_question(question_number :int , quizQuestions : dict):
-    return quizQuestions[question_number]
+def get_module_number():
+    text_file = load_file('note.txt')
+    details = text_file[0]
+    details = details.split(',')
+    return details[2]
 
-def increment_test():
-    path = os.getcwd() + '\note.txt'
+def increment_test_question():
+    path = 'note.txt'
     text_file = load_file(path)
     test_details = text_file[0]
     test_details = test_details.split(',')
     test_details[0] = str(1+int(test_details[0]))
-    write_text = test_details[0] + ','+ test_details[1]
-    with open(os.getcwd()+'\note.txt', 'w') as f:
+    write_text = test_details[0] + ','+ test_details[1]+','+ test_details[2]+ ','+test_details[3]
+    with open('note.txt', 'w') as f:
         f.write(write_text)
+    
 
 def get_moduleQuiz_mark():
-    text_file = load_file(os.getcwd()+'\note.txt')
-    test_details = text_file[0]
-    test_details = test_details.split(',')
-    return int(test_details[1])
+    text_file = load_file('note.txt')
+    details = text_file[0]
+    details = details.split(',')
+    return int(details[1])
 
 def get_moduleQuiz_question_number():
-    text_file = load_file(os.getcwd()+'\note.txt')
-    test_details = text_file[0]
-    test_details = test_details.split(',')
-    return int(test_details[0])
+    text_file = load_file('note.txt')
+    details = text_file[0]
+    details = details.split(',')
+    return int(details[0])
 
-def increment_answers():
-    text_file = load_file(os.getcwd()+'\note.txt')
+def increment_correct_answers():
+    text_file = load_file('note.txt')
     test_details = text_file[0]
     test_details = test_details.split(',')
-    test_details[1] = str(1+int(test_details[0]))
-    write_text = test_details[0] + ','+ test_details[1]
-    with open(os.getcwd()+'\note.txt', 'w') as f:
+    test_details[1] = str(1+int(test_details[1]))
+    write_text = test_details[0] + ','+ test_details[1] + ',' + test_details[2]+','+test_details[3]
+    with open('note.txt', 'w') as f:
         f.write(write_text)
 
-def new_test():
-    text_file = load_file(os.getcwd()+'\note.txt')
-    test_details = text_file[0]
-    test_details = test_details.split(',')
-    test_details[0] = '1'
-    test_details[1] = '0'
-    write_text = test_details[0] + ','+ test_details[1]
-    with open(os.getcwd()+'\note.txt', 'w') as f:
+def get_no_of_test_questions():
+    file ='\module'+get_module_number()+'.txt'
+    path = os.getcwd()+file
+    with open(path) as f:
+        return len(f.readlines())
+
+
+def new_test(module):
+    no_of_lines = get_no_of_test_questions()
+    write_text = '1' + ','+ '0' + ',' + module +','+ str(no_of_lines)
+    with open('note.txt', 'w') as f:
         f.write(write_text)
     
 
