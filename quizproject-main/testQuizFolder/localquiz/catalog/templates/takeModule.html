@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div>
+<h1 style="display: flex; justify-content: center;">Select a module from 05,06,07 below.</h1>
+<div style="display: flex; justify-content: center;">
+<form action="add" method = 'post'>
+{% csrf_token %}
+enter 05 ,06 or 07 : <input type="text" name = "num1"> <br>
+</div>
+<div style="display: flex; justify-content: center;">
+<div>
+        <input type="submit">  
+</form>
+</div>
+<br><br>
+<div style="padding-left: 5%;">
+    <BUTTON onclick = "location.href='{%url 'moduleTest'%}'"> return </button>
+</div>
+</div>
+{% block content %}
+{{result}}
+{% endblock %}
+
+</html>

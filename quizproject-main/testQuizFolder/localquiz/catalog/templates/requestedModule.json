@@ -1,0 +1,862 @@
+{
+    "1": {
+        "Type": "M",
+        "Question": "What are the two main bodies responsible for the establishment and implementation of health and safety laws?",
+        "Solutions": [
+            "A The Health and Safety Regulations (HSR)",
+            "B The Health and Safety Commission(HSC)",
+            "C The Health and Safety Executive(HSE)",
+            "D The Management of Health and Safety at work (HSW)"
+        ],
+        "correctAnswers": [
+            "C",
+            "B"
+        ]
+    },
+    "2": {
+        "Type": "F",
+        "Question": "Most signs warn of possible danger. What are the four main groups of safety signs? (WIMP)",
+        "Solutions": [
+            "_ signs",
+            "_ signs",
+            "_ signs",
+            "_signs"
+        ],
+        "CorrectAnswers": [
+            " Warning",
+            "Information",
+            "Safety",
+            "Prohibition"
+        ]
+    },
+    "3": {
+        "Type": "M",
+        "Question": "Which guidelines govern protective clothing?",
+        "Solutions": [
+            "A The Personal Protective Equipment at Work Regulations",
+            "B The Management of Health and Safety at work (HSW)",
+            "C The Health and Safety at Regulations",
+            "D The Protective Equipment At Work Regulations"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "4": {
+        "Type": "M",
+        "Question": "Who has a resposibility to assess any work related risks?",
+        "Solutions": [
+            "A The Employee",
+            "B The Employer",
+            "C The Clothing Comission",
+            "D Your Supervisor"
+        ],
+        "correctAnswers": [
+            "B"
+        ]
+    },
+    "5": {
+        "Type": "M",
+        "Question": "What should your employer ensure with regard to your PPE?",
+        "Solutions": [
+            "A All PPE is free",
+            "B PPE is suitable for purpose",
+            "C Information to maintain clean and replace PPE",
+            "D Storage provisions",
+            "E PPE is maintained and in good repair",
+            "F PPE is used properly"
+        ],
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+        ]
+    },
+    "6": {
+        "Type": "F",
+        "Question": "What are the three main types of Eye Protection available to you?",
+        "Solutions": [
+            "_ glasses",
+            "_ goggles",
+            "Full _ mask"
+        ],
+        "CorrectAnswers": [
+            "safety",
+            "face"
+        ]
+    },
+    "7": {
+        "Type": "M",
+        "Question": "Which situations require use of eye protection?",
+        "Solutions": [
+            "A Drilling above your head",
+            "B Drilling of chiselling masonry",
+            "C Drilling or chiselling metal",
+            "D Driving nails into masonry",
+            "E Grinding or using grinding equipment"
+        ],
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+        ]
+    },
+    "8": {
+        "Type": "M",
+        "Question": "Which percentage of injuries does toe and foot injuries account for?",
+        "Solutions": [
+            "A 5%",
+            "B 10%",
+            "C 15%",
+            "D 20%",
+            "E 25%"
+        ],
+        "correctAnswers": [
+            "C"
+        ]
+    },
+    "9": {
+        "Type": "M",
+        "Question": "Which percentage of injuries do hand injuries account for?",
+        "Solutions": [
+            "A One in Ten",
+            "B One in five",
+            "C One in three",
+            "D One in Four"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "10": {
+        "Type": "M",
+        "Question": "What ways is dermatites (irritation of the skin) evident?",
+        "Solutions": [
+            "A Sores",
+            "B blisters",
+            "C Redness",
+            "D Dry cracked skin",
+            "E Psoriasis",
+            "F Eczema"
+        ],
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+        ]
+    },
+    "11": {
+        "Type": "F",
+        "Question": "What types of whole body protection will you need to use?",
+        "Solutions": [
+            " A High visibility _",
+            "B High visibility _",
+            "C Protective _"
+        ],
+        "CorrectAnswers": [
+            "vest,jacket,overalls"
+        ]
+    },
+    "12": {
+        "Type": "F",
+        "Question": "What does RPE stand for?",
+        "Solutions": [
+            "_ Protective equipment."
+        ],
+        "CorrectAnswers": [
+            "respiratory"
+        ]
+    },
+    "13": {
+        "Type": "M",
+        "Question": "What two types of RPE should you consider?",
+        "Solutions": [
+            "A Simple face mask",
+            "B Surgical face mask",
+            "C Half face respirator"
+        ],
+        "correctAnswers": [
+            "A",
+            "C"
+        ]
+    },
+    "14": {
+        "Type": "F",
+        "Question": "Fill in the gaps for the use of common working tools: ",
+        "Solutions": [
+            "Cutting tools and drills must be kept _ and in good condition.",
+            "_ should be fitted properly to tools such as hammers and files",
+            "Common items of equipment, barrows, trucks, buckets, rope and tackle are likely to deteriorate with use. Unservicable tools should never be used and should be _ and _.",
+            "It is particularly important to check that _ and _ of hand",
+            "held electically operated tools is in good condition before plugged in.",
+            "If you are an employer, bring any _ to the attention of your line manager for confimation of _ or _.",
+            "Remove any potential hazards or dangerous _ to minimize potential risk."
+        ],
+        "CorrectAnswers": [
+            "sharp",
+            "handles",
+            "removed",
+            "replaced",
+            "plugs",
+            "cables",
+            "fault",
+            "disposal",
+            "repair",
+            "substances"
+        ]
+    },
+    "15": {
+        "Type": "M",
+        "Question": "It is a criminal offence to disable or remove a safety guard.",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "16": {
+        "Type": "M",
+        "Question": " On average how many people are killed by an electric shock per year?",
+        "Solutions": [
+            "A 5",
+            "B 20",
+            "C 50",
+            "D 100"
+        ],
+        "correctAnswers": [
+            "B"
+        ]
+    },
+    "17": {
+        "Type": "M",
+        "Question": " Which voltage of mains electricity does kill?",
+        "Solutions": [
+            " A 120V DC",
+            "B 120V AC",
+            "C 230V DC",
+            "D 230V AC"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "18": {
+        "Type": "M",
+        "Question": "The safe use of electricity is covered by the: ",
+        "Solutions": [
+            "A The Personal Protective Equipment at Work Regulations 1992",
+            "B The electricity at Work Regulations 1989.",
+            "C The Health and Safety Executive",
+            "D The Health and Safety at Work Act 1974."
+        ],
+        "correctAnswers": [
+            "B",
+            "D"
+        ]
+    },
+    "19": {
+        "Type": "M",
+        "Question": "Power tools must be double insulated",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "20": {
+        "Type": "M",
+        "Question": "The maximum voltage for power tools on sites is: ",
+        "Solutions": [
+            "A 50",
+            "B 75",
+            "C 95",
+            "D 110",
+            "E 140"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "21": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            "Manual handling operations can be defined as any means of _ or _ a load (including _, putting down, _, pulling, carrying or moving) by hand or _ force."
+        ],
+        "CorrectAnswers": [
+            "transporting",
+            "supporting",
+            "lifting",
+            "pushing",
+            "bodily"
+        ]
+    },
+    "22": {
+        "Type": "M",
+        "Question": " Back strains are the least common cause of worksite injuries than any other factor",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "B"
+        ]
+    },
+    "23": {
+        "Type": "F",
+        "Question": " In terms of carrying heavy loads:",
+        "Solutions": [
+            " LITE is an important attribute which stands for _ _ _ and _."
+        ],
+        "CorrectAnswers": [
+            "Load",
+            "Induvidual",
+            "Task",
+            "Environment"
+        ]
+    },
+    "24": {
+        "Type": "F",
+        "Question": " When lifting the weight is is important to remember to: ",
+        "Solutions": [
+            "Think before lifting/handling the weight and _ the lift.",
+            "Keep the load close to the _.",
+            "Adopt a _ position.",
+            "Get a good _.",
+            "Start in a good _, bending the knees and keeping the back straight.",
+            "Dont _ the back and further while lifing.",
+            "Do not lift or handle more than can be easily managed."
+        ],
+        "CorrectAnswers": [
+            "plan",
+            "waist",
+            "stable",
+            "handle/hold",
+            "posture",
+            "flex"
+        ]
+    },
+    "25": {
+        "Type": "M",
+        "Question": " Working from heights is the single biggest cause of workplace deaths and one of the main causes of injuries.",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "26": {
+        "Type": "M",
+        "Question": " All working from height has to be risk assessed while the work is in the planning stage",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "27": {
+        "Type": "M",
+        "Question": " What type of safety sign shows a black symbol on a yellow background bordered by a black triangle?",
+        "Solutions": [
+            "A Warning",
+            "B Information",
+            "C Prohibition",
+            "D Mandatory"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "28": {
+        "Type": "M",
+        "Question": " Which of the following signs shows the color blue?",
+        "Solutions": [
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
+        ],
+        "correctAnswers": [
+            "C"
+        ]
+    },
+    "29": {
+        "Type": "M",
+        "Question": " Which of the following signs shows the color green?",
+        "Solutions": [
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
+        ],
+        "correctAnswers": [
+            "B"
+        ]
+    },
+    "30": {
+        "Type": "M",
+        "Question": " Which of the following signs shows the color red?",
+        "Solutions": [
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "31": {
+        "Type": "F",
+        "Question": " Fill in the blanks: ",
+        "Solutions": [
+            "PPE should be provided free of charge by your _. While carrying out your day to day work duties you'll need to use/wear various items of PPE including _ to keep your eyes safe and _ to help prevent dermatitis. _ must be work to protect toes, feet and _. Ensuring they are kept in good state of repair can also help to protect from _."
+        ],
+        "CorrectAnswers": [
+            "employer",
+            "safety goggles",
+            "barrier cream/gloves",
+            "safety boots",
+            "injury/electrocution"
+        ]
+    },
+    "32": {
+        "Type": "M",
+        "Question": " Electricity on a construction site must be reduced to a lower voltage. Which voltage should be used?",
+        "Solutions": [
+            "A 203V",
+            "B 24V",
+            "C 110V",
+            "D 400V"
+        ],
+        "correctAnswers": [
+            "C"
+        ]
+    },
+    "33": {
+        "Type": "M",
+        "Question": " All of the following are important considerations before lifting a load except one. Which one?",
+        "Solutions": [
+            "A Making trial lifts on similar loads",
+            "B Getting help if the load is too heavy",
+            "C Checking that doors are opened if you have to carry the load through them",
+            "D Checking the total load for any sharp edges"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "34": {
+        "Type": "M",
+        "Question": " There are two main types of causes of accidents; Environmental or Human. Select human causes only.",
+        "Solutions": [
+            "A Defective tools and equipment",
+            "B Poor ventilation",
+            "C Bad and foolish behaviour",
+            "D Carelessness",
+            "E Unguarded machinery",
+            "F Poorly lit workspaces",
+            "G Fatigue",
+            "H Improper dress",
+            "I Lack of experience",
+            "J Excessive noise",
+            "K Overcrowded or untity workspaces",
+            "L Poor supervision",
+            "M Use of alcohol or drugs"
+        ],
+        "correctAnswers": [
+            "C",
+            "D",
+            "G",
+            "H",
+            "I",
+            "L",
+            "M"
+        ]
+    },
+    "35": {
+        "Type": "F",
+        "Question": " Safety in the workplace falls into three main categories: ",
+        "Solutions": [
+            "Personal _.",
+            "Safety from _ and electric _.",
+            "_ procedures for dealing with accidents"
+        ],
+        "CorrectAnswers": [
+            "protection",
+            "electricity",
+            "shock",
+            "emergency"
+        ]
+    },
+    "36": {
+        "Type": "M",
+        "Question": " Legislation which governs the requirements of the assessment of risks are: ",
+        "Solutions": [
+            "A The Health and Safety at Work Act 1974",
+            " B The Health and Safety Commission(HSC)",
+            "C The Health and Safety Regulations (HSR)",
+            "D The Management of Health and Safety at Work Regulations 1999."
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "37": {
+        "Type": "M",
+        "Question": " It is a legal requirement that risks in your workplace are assessed",
+        "Solutions": [
+            "A True",
+            "B False"
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "38": {
+        "Type": "F",
+        "Question": " The Five steps to Risk Assessment include: ",
+        "Solutions": [
+            "Step 1: Identify the _",
+            "Step 2: Decide _ might be harmed and how",
+            "Step 3: Evalutate the _ and decide on _.",
+            "Step 4: Record your findings and _ them.",
+            "Step 5: Review your assesment and update if necessary."
+        ],
+        "CorrectAnswers": [
+            "hazards",
+            "who",
+            "risk/risks",
+            "precautions",
+            "implement"
+        ]
+    },
+    "39": {
+        "Type": "F",
+        "Question": " The are two terms which you need to understand when considering a risk assesment: ",
+        "Solutions": [
+            " A _ is anything that may cause harm, such as chemicals, flame, working from ladders, hot metal, arc electrodes etc.",
+            "A _ is the chance, high or low, that somebody could be harmed by these and other hazards, toghether with and indication of how serious that harm could be."
+        ],
+        "CorrectAnswers": [
+            "hazard",
+            "risk"
+        ]
+    },
+    "40": {
+        "Type": "F",
+        "Question": " The risk rating is calculated by: ",
+        "Solutions": [
+            " The _ rating multiplied by the _ rating."
+        ],
+        "CorrectAnswers": [
+            "likelihood",
+            "serverity"
+        ]
+    },
+    "41": {
+        "Type": "F",
+        "Question": " Risk factors are then calculated using the simple formula: ",
+        "Solutions": [
+            " Risk factor = _ x _"
+        ],
+        "CorrectAnswers": [
+            "likelihood",
+            "consequence"
+        ]
+    },
+    "42": {
+        "Type": "M",
+        "Question": " The purpose of a risk assessment is to: ",
+        "Solutions": [
+            "A Assess the level of risk to people that may be present in work operations",
+            "B Assess the extent of the risk that a particular job might result in a loss of profit to the company",
+            "C Assess the value of a customer's property for instance purposes when damage has been caused to the property for insurance purposes when damage has been caused to property",
+            "D Assess the possible costs of an insurance claim by operatives who have been injured at work."
+        ],
+        "correctAnswers": [
+            "A"
+        ]
+    },
+    "43": {
+        "Type": "M",
+        "Question": " Which formula can be used to determine the risk factor?",
+        "Solutions": [
+            " A Time x Cost",
+            "B Cost x Likelihood",
+            "C Consequence x Cost",
+            "D Likelihood x Consequence"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "44": {
+        "Type": "M",
+        "Question": " Who is responsible for carrying out written risk assessments?",
+        "Solutions": [
+            "A The HSE",
+            "B The Employee",
+            "C The Client",
+            "D The employer"
+        ],
+        "correctAnswers": [
+            "D"
+        ]
+    },
+    "45": {
+        "Type": "F",
+        "Question": " In terms of escape routes:",
+        "Solutions": [
+            " All escape routes should be clearly _ by the provision of adequate signage and emergency _. These signs should be placed along the _ and emergency exit _. These route must be kept _."
+        ],
+        "CorrectAnswers": [
+            "identifiable/visible/indentified",
+            "lighting",
+            "doors",
+            "route",
+            "clear"
+        ]
+    },
+    "46": {
+        "Type": "F",
+        "Question": " As a reminder, COSHH stands for: ",
+        "Solutions": [
+            " _ of _ _ to _."
+        ],
+        "CorrectAnswers": [
+            "control",
+            "hazardous",
+            "substance",
+            "health."
+        ]
+    },
+    "47": {
+        "Type": "F",
+        "Question": " COSHH standards dictate that: ",
+        "Solutions": [
+            "1. Control measures must be taken to ensure that equipment is properly maintained and _ procedures are _.",
+            "2. Employees must be informed and _ (and where necessary receive specialist training) about the risks associated with _ substances, following all the necessary _ as required.",
+            "3. Employees must hold a copy of a Material Safety Data Sheet for every hazardous and dangerous substances they use."
+        ],
+        "CorrectAnswers": [
+            "safety",
+            "observed",
+            "instructed",
+            "substances",
+            "precautions"
+        ]
+    },
+    "48": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            "CHIP : _ _ _ _ for supply regulations 2002. States that all primary containers of hazardous or dangerous substances must be correctly _ as to identify their danger."
+        ],
+        "CorrectAnswers": [
+            "chemicals",
+            "hazard",
+            "information",
+            "packaging"
+        ]
+    },
+    "49": {
+        "Type": "F",
+        "Question": " The three main fatal diseases caused by asbestos are : ",
+        "Solutions": [
+            "A : _ or scarring of the _ leading to _ of breath.",
+            "B Lung _ ",
+            "C Mesothelioma, or scarring of the _"
+        ],
+        "CorrectAnswers": [
+            "Asbestiosis",
+            "lung",
+            "shortness",
+            "cancer",
+            "stomach"
+        ]
+    },
+    "50": {
+        "Type": "M",
+        "Question": " There are three main types of asbestos. Chrysotile, Amosite or Crocidolite. Identify their corresponding colors: ",
+        "Solutions": [
+            "A Red ",
+            "B Yellow",
+            "C Orange",
+            "D White",
+            "E Green",
+            "F Brown",
+            "G Black",
+            "H Blue"
+        ],
+        "correctAnswers": [
+            "D",
+            "G",
+            "H"
+        ]
+    },
+    "51": {
+        "Type": "F",
+        "Question": " The current regulations which gives fire authorities direct enforcement responsibility are the.",
+        "Solutions": [
+            " _ _ (_ Safety) _ 2005"
+        ],
+        "CorrectAnswers": [
+            "regulatory",
+            "reform",
+            "fire",
+            "order"
+        ]
+    },
+    "52": {
+        "Type": "M",
+        "Question": " Select the correct regulations imposed by the Regulatory Reform Fire Safety Order 2005. ",
+        "Solutions": [
+            " A The duty to maintain Building Regulation standards for the use and protections of the Fire Service",
+            "B The duty to appoint one or more employees to assist in ensuring the compliance with the Regulations(such as fire marshal).",
+            "C The duty to prevent fire spreading",
+            "D The duty to respond to ongoing fires",
+            "E The duty to complete fire risk",
+            "assessment."
+        ],
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ]
+    },
+    "53": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            " As with the _ and _ at _ _ 1974. It is up to the responsible person to demonstrate that they did everything 'reasonably _ ' to prevent injury."
+        ],
+        "CorrectAnswers": [
+            "health",
+            "safety",
+            "work",
+            "act",
+            "practicible"
+        ]
+    },
+    "54": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            " In order to keep workplaces safe from fire it is important to, keep workplaces _ and _, not leaving _ materials lying around. Fuses and _ welding _ are of correct rating and curcuits are not _."
+        ],
+        "CorrectAnswers": [
+            "clean/tidy",
+            "clean/tidy",
+            "flammable",
+            "arc",
+            "cables",
+            "overloaded"
+        ]
+    },
+    "55": {
+        "Type": "F",
+        "Question": " What is a fire? Name the three components : ",
+        "Solutions": [
+            "_ (Combustible _) ",
+            " _ (air)",
+            "_ (_, _ or match)"
+        ],
+        "CorrectAnswers": [
+            "fuel",
+            "material",
+            "oxygen",
+            "heat",
+            "spark",
+            "friction"
+        ]
+    },
+    "56": {
+        "Type": "F",
+        "Question": " If you discover a fire, there are a range of procedures you should follow. Place them in order: ",
+        "Solutions": [
+            "_ Call the Fire Service out",
+            "_ Leave by the nearest exit",
+            "_ If in doubt stay out",
+            "_ Raise the alarm"
+        ],
+        "CorrectAnswers": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    "57": {
+        "Type": "F",
+        "Question": " Order the classes of fire correctly according to fuel type",
+        "Solutions": [
+            " Class _ Fires involving metals",
+            "Class _ Fires involving cooking oils and fats",
+            "Class _ Fires involing flammable liquids and liquifiable solids",
+            "Class _ Fires involving flammable gases",
+            "Class _ Fires involving organic substances such as paper and wood"
+        ],
+        "CorrectAnswers": [
+            "D",
+            "F",
+            "B",
+            "C",
+            "A"
+        ]
+    },
+    "58": {
+        "Type": "F",
+        "Question": " Fill in the gaps of fire extinguisher types: ",
+        "Solutions": [
+            " Powder(_) , uses: _ and _ fires, DO NOT USE: on _ fires.",
+            "_(RED) uses Wood, paper, textile and solid _ fires.DO NOT USE: electrical fires, metal or burning _/_",
+            "_ _ CO2 (BLACK). Uses: _ and _ fires. DO NOT USE: _ fires.",
+            "FOAM/AFF (_/_). Uses liquid fires. DO NOT USE: electrical or _ fires."
+        ],
+        "CorrectAnswers": [
+            "blue",
+            "liquid",
+            "electrical",
+            "metal",
+            "water",
+            "material",
+            "fat",
+            "carbon",
+            "dioxide",
+            "liquid",
+            "electrical",
+            "metal",
+            "white",
+            "cream",
+            "metal"
+        ]
+    },
+    "59": {
+        "Type": "F",
+        "Question": " Under the Controlled Waste Regulations 1998; Waste may require specialist disposal if it: ",
+        "Solutions": [
+            " is considered to have _ properties."
+        ],
+        "CorrectAnswers": [
+            "harmful/hazardous"
+        ]
+    }
+}

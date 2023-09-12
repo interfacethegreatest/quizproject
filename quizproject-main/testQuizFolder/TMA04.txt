@@ -1,0 +1,10 @@
+Which of the following shielding gases can be supplied as liquefied gas?,A Carbon dioxide-B Argon-C Helium-D Nitrogen,A
+What is the device that is used to reduce the high pressure gas contained in a cylinder to the low pressures required for welding called?,A Meter-B Governor-C Regulator-D Valve,D 
+What form of electrical supply is produced by a MIG/MAG welding set?,A AC electrode positive-B DC electrode positive-C AC electrode negative-D DC electrode negative,C
+What type of welding plant is associated with being a source of power for MIG/MAG welding?,A Rectifier/generator-B Transformer/rectifier-C Transformer/generator-D Rectifier/alternator,B
+How are flux cored MIG wires constructed?,A Hollow tube with the flux on the inside-B Solid wire with the flux on the outside-C A wire with small holes filled with flux-D A solid wire which has the flux in grooves on the outside,A
+Why are MIG wires termed as being triple deoxidised?,A They are free from oxygen-B They contain deoxidising elements-C They react with oxygen in the atmosphere-D They contain free oxygen,B  
+What is the first action required to make sure a work area is safe?,A Carry out a method statement,B Carry out a fire drill,C Carry out a risk assessment,D Carry out practice run through,C
+What is the purpose of the filter lens in a welding helmet?,A Protect against welding spatter-B Protect against flying objects-C Protect against heat radiation-D Protect against arc radiation,D
+What is the approximate angle between the torch and the work surface when making a joint in the flat position?,A 90°-B 70°-C 50°-D 30,A  
+What is the approximate nozzle-to-work distance to be maintained when performing a MIG/MAG weld?,A 10 to 15 mm-B 20 to 25 mm-C 25 to 30 mm-D 30 to 35 mm,B

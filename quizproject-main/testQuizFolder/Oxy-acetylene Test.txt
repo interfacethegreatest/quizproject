@@ -1,0 +1,24 @@
+M*Should welding and cutting operations be conducted near flammable materials?*A Yes-B No*B
+M*A spark from oxy-acetylene can travel up to: *A 10 feet-B 20 Feet-C 30 feet-D 40 feet-E 50 feet*C
+M* Eye injury can be caused by intense light or flying sparks: *A True-B False*A
+M* Fumes from parent metals, surface coatings, fluxes and filler rods and degreasers can cause injury to the body, good local extraction, breathing aparatus should be worn at all times*A true-B flase*A
+F* The correct breathing aparatus are canister _, also known as self contained _ apparatus, as well as local _.*respirator-breathing-extraction
+M* Which fuel source should you use to spark the torch? *A Butane lighter-B Spark gun*B
+F* Correct handling of gas cylinders involves storing in a well-ventilated area, with flame proof _ fittings, no smoking, no greasy _ and no exposed _ in the storage area.*electrical-clothing-flames
+F* It is important to protect cylinders from snow ice and from the _ if stored outside*Sun
+M* Should you regularly apply lubrication, jointing compounds? *A yes-B No*B
+F* Acetylene cylinders should be stored in an upright position at all times as well as being _ in an appropriate _ when moving.*secured-trolley
+F* Snifting involves quickly blowing out gas before fitting the _ to ensure there is no dirt or _ entering the _. One gas which should not be snifted is _.*regulator-grease-hydrogen
+M* If an acetylene canister becomes heated you should spray it with water, inform the fire brigade and cordon off the area*A true-B false*A
+M* Cylinders must be kept clear of moving materials*A true-B False
+F* Leather goods are extremely important to be worn for personal safety as they have self-_ qualities.*extinguishing
+M* Flammable substances can be trapped in grooves, seams and riveted joints and we should never weld oil cans or petrol tanks unless specifically trained*A true-B false*A
+F* The gas which is given off when degreasers are heated is known as _ gas.*mustard
+F* combustible gasses all have different positioned valve sockets or threads on their gas cylinders. These threads are positioned to the _ hand which non-combustible canisters have threads positioned to the _ hand. These are denoted by different _.*Left
+F* All cylinders are turned _ to _ and anticlockwise to _.*clockwise-open-close
+F* A reugulator ensures that pressures inside the canister are reduced to safe working pressures over a range of flow-rates and _.
+M* Where are flashback arrestors required by law to be fitted?*A pressure hose-B Canister thread-C Regulator-D Torch*C
+F* The welding torch consists of a shank which incorporates the _ and _; A control valve, regulating the flow rate of gasses and a mixer / injector, mixing gasses and a range of copper nozzles. The copper nozles primarily look to regulate the _ supplied to the weld as well as the _ of the flame.*oxygen-acetylene-heat-direction
+F* Gas economisers should also be used. Here resting the torch on the gas economiser allows for the _ of gas consumption by as much as _%. Designed for short intervals between welding where the torch is not going to be used.*reduction-20/twenty
+F* Gas hoses are color coded and are fitted to a flashback arrestor. _ hoses should be connected to acetylene and _ to oxygen remebering that the acetylene has a _-hand thread.*red-blue-left
+F* The welding torch consists of major components critical to its functioning, these include firstly the shank. Its function insists of incorporating the _ and _. Next is the Mixer/Injector, providing a pressurized area to combine both substances in a mixing chamber. Finally are the nozzles. The nozzles enable the governing of the _ supplied to the weld as well as its direction.*oxygen-acetylene-heat

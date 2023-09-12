@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<BUTTON onclick="location.href='{% url 'generate_question'%}'"> EXECUTE quiz</BUTTON>
+{% if dest2 %}
+{% block content %}
+<br>
+<br>
+<h1>Question {{dest2.2}}</h1>
+ {{dest2.0.Question}} {# Access the first element (the dictionary) in the tuple #}
+{% endblock %}
+{% endif %}
+</body>
+</html>
