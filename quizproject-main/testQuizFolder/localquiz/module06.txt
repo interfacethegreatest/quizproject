@@ -1,5 +1,5 @@
 F* Orthographic projection: *This is conveyed the conventional way of drawing _, within this projection of drawing, _ _ and _ angle.*components-first-angle-third
-F* First angle (Orthographic projection): *Often referred to as the _ representation in which the drawing is presented with a _ pattern. The _ elevation is laid out first at the top of the paper, with _ views either side and a _ view immediately below the front.*imperial-front-end-plan
+F* First angle (Orthographic projection): *Often referred to as the _ representation in which the drawing is presented with a _ pattern. The _ elevation is laid out first at the top of the paper, with _ views either side and a _ view immediately below the front.*imperial-regular-front-end-plan
 F* Third angle (Orthographic projection): *Often reffered to as the _ representation, is laid out with the _ immediately above the _. *american-plan-front
 M* Production drawings are classified in two major categories*A true-B false*A
 F* Assembly drawings : *These show how parts _ _ or are functionally related*fit-toghether

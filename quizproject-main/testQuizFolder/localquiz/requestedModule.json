@@ -22,7 +22,7 @@
             "_ signs",
             "_signs"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             " Warning",
             "Information",
             "Safety",
@@ -83,7 +83,7 @@
             "_ goggles",
             "Full _ mask"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "safety",
             "face"
         ]
@@ -161,7 +161,7 @@
             "B High visibility _",
             "C Protective _"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "vest,jacket,overalls"
         ]
     },
@@ -171,7 +171,7 @@
         "Solutions": [
             "_ Protective equipment."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "respiratory"
         ]
     },
@@ -200,7 +200,7 @@
             "If you are an employer, bring any _ to the attention of your line manager for confimation of _ or _.",
             "Remove any potential hazards or dangerous _ to minimize potential risk."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "sharp",
             "handles",
             "removed",
@@ -295,7 +295,7 @@
         "Solutions": [
             "Manual handling operations can be defined as any means of _ or _ a load (including _, putting down, _, pulling, carrying or moving) by hand or _ force."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "transporting",
             "supporting",
             "lifting",
@@ -320,7 +320,7 @@
         "Solutions": [
             " LITE is an important attribute which stands for _ _ _ and _."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "Load",
             "Induvidual",
             "Task",
@@ -339,7 +339,7 @@
             "Dont _ the back and further while lifing.",
             "Do not lift or handle more than can be easily managed."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "plan",
             "waist",
             "stable",
@@ -428,7 +428,7 @@
         "Solutions": [
             "PPE should be provided free of charge by your _. While carrying out your day to day work duties you'll need to use/wear various items of PPE including _ to keep your eyes safe and _ to help prevent dermatitis. _ must be work to protect toes, feet and _. Ensuring they are kept in good state of repair can also help to protect from _."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "employer",
             "safety goggles",
             "barrier cream/gloves",
@@ -498,7 +498,7 @@
             "Safety from _ and electric _.",
             "_ procedures for dealing with accidents"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "protection",
             "electricity",
             "shock",
@@ -539,7 +539,7 @@
             "Step 4: Record your findings and _ them.",
             "Step 5: Review your assesment and update if necessary."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "hazards",
             "who",
             "risk/risks",
@@ -554,7 +554,7 @@
             " A _ is anything that may cause harm, such as chemicals, flame, working from ladders, hot metal, arc electrodes etc.",
             "A _ is the chance, high or low, that somebody could be harmed by these and other hazards, toghether with and indication of how serious that harm could be."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "hazard",
             "risk"
         ]
@@ -565,7 +565,7 @@
         "Solutions": [
             " The _ rating multiplied by the _ rating."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "likelihood",
             "serverity"
         ]
@@ -576,7 +576,7 @@
         "Solutions": [
             " Risk factor = _ x _"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "likelihood",
             "consequence"
         ]
@@ -626,7 +626,7 @@
         "Solutions": [
             " All escape routes should be clearly _ by the provision of adequate signage and emergency _. These signs should be placed along the _ and emergency exit _. These route must be kept _."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "identifiable/visible/indentified",
             "lighting",
             "doors",
@@ -640,7 +640,7 @@
         "Solutions": [
             " _ of _ _ to _."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "control",
             "hazardous",
             "substance",
@@ -655,7 +655,7 @@
             "2. Employees must be informed and _ (and where necessary receive specialist training) about the risks associated with _ substances, following all the necessary _ as required.",
             "3. Employees must hold a copy of a Material Safety Data Sheet for every hazardous and dangerous substances they use."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "safety",
             "observed",
             "instructed",
@@ -669,7 +669,7 @@
         "Solutions": [
             "CHIP : _ _ _ _ for supply regulations 2002. States that all primary containers of hazardous or dangerous substances must be correctly _ as to identify their danger."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "chemicals",
             "hazard",
             "information",
@@ -684,7 +684,7 @@
             "B Lung _ ",
             "C Mesothelioma, or scarring of the _"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "Asbestiosis",
             "lung",
             "shortness",
@@ -717,7 +717,7 @@
         "Solutions": [
             " _ _ (_ Safety) _ 2005"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "regulatory",
             "reform",
             "fire",
@@ -748,7 +748,7 @@
         "Solutions": [
             " As with the _ and _ at _ _ 1974. It is up to the responsible person to demonstrate that they did everything 'reasonably _ ' to prevent injury."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "health",
             "safety",
             "work",
@@ -762,7 +762,7 @@
         "Solutions": [
             " In order to keep workplaces safe from fire it is important to, keep workplaces _ and _, not leaving _ materials lying around. Fuses and _ welding _ are of correct rating and curcuits are not _."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "clean/tidy",
             "clean/tidy",
             "flammable",
@@ -779,7 +779,7 @@
             " _ (air)",
             "_ (_, _ or match)"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "fuel",
             "material",
             "oxygen",
@@ -797,7 +797,7 @@
             "_ If in doubt stay out",
             "_ Raise the alarm"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "3",
             "2",
             "4",
@@ -814,7 +814,7 @@
             "Class _ Fires involving flammable gases",
             "Class _ Fires involving organic substances such as paper and wood"
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "D",
             "F",
             "B",
@@ -831,7 +831,7 @@
             "_ _ CO2 (BLACK). Uses: _ and _ fires. DO NOT USE: _ fires.",
             "FOAM/AFF (_/_). Uses liquid fires. DO NOT USE: electrical or _ fires."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "blue",
             "liquid",
             "electrical",
@@ -855,7 +855,7 @@
         "Solutions": [
             " is considered to have _ properties."
         ],
-        "CorrectAnswers": [
+        "correctAnswers": [
             "harmful/hazardous"
         ]
     }

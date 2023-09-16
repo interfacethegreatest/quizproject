@@ -44,8 +44,9 @@ def take_module_question(request):
  totalQuestionNo = get_no_of_test_questions()
  if question_no > totalQuestionNo:
     dest2 = ifFinished
-    return render(request, 'testModule.html/', {'dest2' : dest2 })
+    return render(request, 'finished.html', {'dest2' : dest2})
  res = res[str(question_no)]
+ print(res)
  increment_test_question()
  dest1.module_number = get_module_number()
  question_count = str(question_no) + '/'+ str(totalQuestionNo)
@@ -76,7 +77,7 @@ def get_module(module_loc):
                 "Type" : questionObject[0],
                 "Question" : questionObject[1],
                 "Solutions" : questionObject[2],
-                "CorrectAnswers": questionObject[3]}
+                "correctAnswers": questionObject[3]}
             quizQuestions[str(counter)] = questionObj
         print(quizQuestions[str(counter)])
         counter+=1

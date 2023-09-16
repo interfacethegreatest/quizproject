@@ -13,7 +13,28 @@
 <br>
 <br>
 <h1>Question {{dest2.2}}</h1>
- {{dest2.0.Question}} {# Access the first element (the dictionary) in the tuple #}
+<h2 id="question_text"></h2>
+<br>
+<br>
+<script type="text/javascript"> 
+    var question_type = "{{dest2.0.Type}}"
+    var question_title = "{{ dest2.0.Question }}"
+    var solutions_text = "{{ dest2.0.Solutions|join:', ' }}"
+    var CorrectAnswers = "{{ dest2.0.correctAnswers|join:', ' }}"
+    console.log(question_type)
+    console.log(question_title)
+    console.log(solutions_text)
+    console.log(CorrectAnswers)
+    if (question_type == "M"){
+        console.log('123')
+
+    } else {
+
+    }
+    document.getElementById("question_text").innerHTML = question_title
+</script>
+
+ 
 {% endblock %}
 {% endif %}
 </body>
