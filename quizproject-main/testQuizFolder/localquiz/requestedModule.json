@@ -1,862 +1,290 @@
 {
     "1": {
-        "Type": "M",
-        "Question": "What are the two main bodies responsible for the establishment and implementation of health and safety laws?",
+        "Type": "F",
+        "Question": " Orthographic projection: ",
         "Solutions": [
-            "A The Health and Safety Regulations (HSR)",
-            "B The Health and Safety Commission(HSC)",
-            "C The Health and Safety Executive(HSE)",
-            "D The Management of Health and Safety at work (HSW)"
+            "This is the conveyed conventional way of drawing _, within this projection of drawing, _ _ and _ angle."
         ],
         "correctAnswers": [
-            "C",
-            "B"
+            "components",
+            "first",
+            "angle",
+            "third"
         ]
     },
     "2": {
         "Type": "F",
-        "Question": "Most signs warn of possible danger. What are the four main groups of safety signs? (WIMP)",
+        "Question": " First angle (Orthographic projection): ",
         "Solutions": [
-            "_ signs",
-            "_ signs",
-            "_ signs",
-            "_signs"
+            "Often referred to as the _ representation in which the drawing is presented with a _ pattern. The _ elevation is laid out first at the top of the paper, with _ views either side and a _ view immediately below the front."
         ],
         "correctAnswers": [
-            " Warning",
-            "Information",
-            "Safety",
-            "Prohibition"
+            "imperial",
+            "regular",
+            "front",
+            "end",
+            "plan"
         ]
     },
     "3": {
-        "Type": "M",
-        "Question": "Which guidelines govern protective clothing?",
+        "Type": "F",
+        "Question": " Third angle (Orthographic projection): ",
         "Solutions": [
-            "A The Personal Protective Equipment at Work Regulations",
-            "B The Management of Health and Safety at work (HSW)",
-            "C The Health and Safety at Regulations",
-            "D The Protective Equipment At Work Regulations"
+            "Often reffered to as the _ representation, is laid out with the _ immediately above the _. "
         ],
         "correctAnswers": [
-            "A"
+            "american",
+            "plan",
+            "front"
         ]
     },
     "4": {
         "Type": "M",
-        "Question": "Who has a resposibility to assess any work related risks?",
+        "Question": " Production drawings are classified in two major categories",
         "Solutions": [
-            "A The Employee",
-            "B The Employer",
-            "C The Clothing Comission",
-            "D Your Supervisor"
+            "A true",
+            "B false"
         ],
         "correctAnswers": [
-            "B"
+            "A"
         ]
     },
     "5": {
-        "Type": "M",
-        "Question": "What should your employer ensure with regard to your PPE?",
+        "Type": "F",
+        "Question": " Assembly drawings : ",
         "Solutions": [
-            "A All PPE is free",
-            "B PPE is suitable for purpose",
-            "C Information to maintain clean and replace PPE",
-            "D Storage provisions",
-            "E PPE is maintained and in good repair",
-            "F PPE is used properly"
+            "These show how parts _ _ or are functionally related"
         ],
         "correctAnswers": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
+            "fit",
+            "toghether"
         ]
     },
     "6": {
         "Type": "F",
-        "Question": "What are the three main types of Eye Protection available to you?",
+        "Question": " Circuit Wiring Diagrams: ",
         "Solutions": [
-            "_ glasses",
-            "_ goggles",
-            "Full _ mask"
+            "A wiring digram is a simplified conventional pictorial representation of an _  ciruit. It shows the _ of the circuit as simplified shapes, and the power and signal connections between devices. A pictoral diagram would show more detail of the _ appearance, while a wiring diagram a more _ notation."
         ],
         "correctAnswers": [
-            "safety",
-            "face"
+            "electrical",
+            "components",
+            "physical",
+            "symbolic"
         ]
     },
     "7": {
-        "Type": "M",
-        "Question": "Which situations require use of eye protection?",
+        "Type": "F",
+        "Question": " Pictorial Projection: ",
         "Solutions": [
-            "A Drilling above your head",
-            "B Drilling of chiselling masonry",
-            "C Drilling or chiselling metal",
-            "D Driving nails into masonry",
-            "E Grinding or using grinding equipment"
+            "One drawing will show three views and within this group, once again two distinct versions exist _ and _ projection. In isometric projection the view is built around _ planes. In Oblique projection the view is built along _."
         ],
         "correctAnswers": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E"
+            "isometric",
+            "oblique",
+            "three",
+            "two"
         ]
     },
     "8": {
-        "Type": "M",
-        "Question": "Which percentage of injuries does toe and foot injuries account for?",
+        "Type": "F",
+        "Question": " Engineering Detail Layout: ",
         "Solutions": [
-            "A 5%",
-            "B 10%",
-            "C 15%",
-            "D 20%",
-            "E 25%"
+            "Engineering drawing starts with selecting the correct _ of paper on which to design the component. Having selected the _, it is standard practice to construct a _ and a block tile to house specific detail relative to the _. Typical information includes; ",
+            "Name of draughtsman ",
+            "_ of issue",
+            "Scale",
+            "Projection",
+            "Material _",
+            "Surface finish"
         ],
         "correctAnswers": [
-            "C"
+            "size",
+            "size",
+            "border",
+            "component",
+            "composition"
         ]
     },
     "9": {
-        "Type": "M",
-        "Question": "Which percentage of injuries do hand injuries account for?",
+        "Type": "F",
+        "Question": " In engineering: ",
         "Solutions": [
-            "A One in Ten",
-            "B One in five",
-            "C One in three",
-            "D One in Four"
+            "To create a compositional _, we must also recognise the type of line we should use: ",
+            "Part outlines identify _ lines.",
+            "Section lines identify light lines.",
+            "Hidden lines identify medium broken up lines. Center lines identify _, broken lines.",
+            "_ and Extension lines identify light solid lines with measurements.",
+            "_ Lines represent Heavy and light lines with jagged notation."
         ],
         "correctAnswers": [
-            "D"
+            "design",
+            "heavy",
+            "light",
+            "dimension",
+            "break"
         ]
     },
     "10": {
-        "Type": "M",
-        "Question": "What ways is dermatites (irritation of the skin) evident?",
+        "Type": "F",
+        "Question": " Conventional Representation: ",
         "Solutions": [
-            "A Sores",
-            "B blisters",
-            "C Redness",
-            "D Dry cracked skin",
-            "E Psoriasis",
-            "F Eczema"
+            " Conventional representation of common features is often used to cut unnecessary _ out of a drawing, saving time and helping to keep the drawing _."
         ],
         "correctAnswers": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
+            "detail",
+            "clear"
         ]
     },
     "11": {
         "Type": "F",
-        "Question": "What types of whole body protection will you need to use?",
+        "Question": " Hacksaws : ",
         "Solutions": [
-            " A High visibility _",
-            "B High visibility _",
-            "C Protective _"
+            " The blade has a large number of _ and once again the _ and _ angles are used. Always however the slot to be cut is slightly _ than the blade thickness, this prevents jamming during use"
         ],
         "correctAnswers": [
-            "vest,jacket,overalls"
+            "teeth",
+            "rake",
+            "clearance",
+            "wider"
         ]
     },
     "12": {
         "Type": "F",
-        "Question": "What does RPE stand for?",
+        "Question": " Sectional Views: ",
         "Solutions": [
-            "_ Protective equipment."
+            "Whist some detail can be shown on a drawing, more precise detail must be indicated as if a component were cut. First, the drawing must indicate which face is being viewed. This is done by placing _ at extreme ends of the line which represents the imaginary cut. However if the views of the detail being shown are identical in both _ the arrows may be omitted."
         ],
         "correctAnswers": [
-            "respiratory"
+            "arrows",
+            "directions"
         ]
     },
     "13": {
-        "Type": "M",
-        "Question": "What two types of RPE should you consider?",
+        "Type": "F",
+        "Question": " Dimensioning and Tolerances: ",
         "Solutions": [
-            "A Simple face mask",
-            "B Surgical face mask",
-            "C Half face respirator"
+            " It tells the manufacturing staff and machines what degree of accuracy and precision is needed of each facet or part. Dimensioning specifications define as",
+            "intended geometry. One example is a basic dimension. Tolerance specifications define the allowable _ for the form and possibly the size of induvidual features. Examples include linear dimensions and feature control frames using a _ reference."
         ],
         "correctAnswers": [
-            "A",
-            "C"
+            "variation",
+            "datum"
         ]
     },
     "14": {
         "Type": "F",
-        "Question": "Fill in the gaps for the use of common working tools: ",
+        "Question": " Vices : ",
         "Solutions": [
-            "Cutting tools and drills must be kept _ and in good condition.",
-            "_ should be fitted properly to tools such as hammers and files",
-            "Common items of equipment, barrows, trucks, buckets, rope and tackle are likely to deteriorate with use. Unservicable tools should never be used and should be _ and _.",
-            "It is particularly important to check that _ and _ of hand",
-            "held electically operated tools is in good condition before plugged in.",
-            "If you are an employer, bring any _ to the attention of your line manager for confimation of _ or _.",
-            "Remove any potential hazards or dangerous _ to minimize potential risk."
+            "Available for a wide range of applications, but in all cases should only be tightened with sufficient force to _ movement. Over tightening a vice will distort or _ the work peice or lead to the vice itself being damaged. "
         ],
         "correctAnswers": [
-            "sharp",
-            "handles",
-            "removed",
-            "replaced",
-            "plugs",
-            "cables",
-            "fault",
-            "disposal",
-            "repair",
-            "substances"
+            "restrict",
+            "damage"
         ]
     },
     "15": {
-        "Type": "M",
-        "Question": "It is a criminal offence to disable or remove a safety guard.",
+        "Type": "F",
+        "Question": " Rake and clearance angles: ",
         "Solutions": [
-            "A True",
-            "B False"
+            "Back rake is designed to control the direction in which a chip is sent. Side rake along with back rake controls the _ flow. It partly counteracts resistance to the movement of the cutter and can be set to suit the particular materical being cut. Clearance angles are designed to ensure rapid clearance of material and ensure no part of the tool beside the cutting edge can touch the work."
         ],
         "correctAnswers": [
-            "A"
+            "chip"
         ]
     },
     "16": {
-        "Type": "M",
-        "Question": " On average how many people are killed by an electric shock per year?",
+        "Type": "F",
+        "Question": " Non-chip forming processes : ",
         "Solutions": [
-            "A 5",
-            "B 20",
-            "C 50",
-            "D 100"
+            " Guillotines, hand",
+            "shears, portable shears ",
+            "Snips",
+            "Punching tools",
+            "cropping machines",
+            " These operate on the premise that initial impact causes the material to be cut because there is a fixed blade and a moving blade and serverance occurs because the moving blade has designated _."
         ],
         "correctAnswers": [
-            "B"
+            "clearance"
         ]
     },
     "17": {
-        "Type": "M",
-        "Question": " Which voltage of mains electricity does kill?",
+        "Type": "F",
+        "Question": " Emergent problem sequence: ",
         "Solutions": [
-            " A 120V DC",
-            "B 120V AC",
-            "C 230V DC",
-            "D 230V AC"
+            "The real problem must be determined. Beware erroneuous data. A case of this type where there may be more than one problem is a _ problem or in systems terminology a '_'."
         ],
         "correctAnswers": [
-            "D"
+            "compound",
+            "mess"
         ]
     },
     "18": {
-        "Type": "M",
-        "Question": "The safe use of electricity is covered by the: ",
+        "Type": "F",
+        "Question": " Adhesion can occur in two ways: ",
         "Solutions": [
-            "A The Personal Protective Equipment at Work Regulations 1992",
-            "B The electricity at Work Regulations 1989.",
-            "C The Health and Safety Executive",
-            "D The Health and Safety at Work Act 1974."
+            "A Mechanical interlocking : where adhesives penetrate the pores of the adherands and produces physical cementing. ",
+            "B specific bonding: where adherents react chemically bonding them through inter",
+            "molecular _.",
+            "C Cohesion which is the ability of the adhesive to withstand forces within itself without failure."
         ],
         "correctAnswers": [
-            "B",
-            "D"
+            "attraction"
         ]
     },
     "19": {
-        "Type": "M",
-        "Question": "Power tools must be double insulated",
+        "Type": "F",
+        "Question": " Types of adhesives: ",
         "Solutions": [
-            "A True",
-            "B False"
+            "Thermo",
+            "plastic, adhesives which soften when cooled, the cycle being _.",
+            "Thermo setting, adhesives which are set to a permanent shape. They need heating and pressure and will not re",
+            "_."
         ],
         "correctAnswers": [
-            "A"
+            "repeated",
+            "soften"
         ]
     },
     "20": {
-        "Type": "M",
-        "Question": "The maximum voltage for power tools on sites is: ",
+        "Type": "F",
+        "Question": " Paralax Error : ",
         "Solutions": [
-            "A 50",
-            "B 75",
-            "C 95",
-            "D 110",
-            "E 140"
+            " Parallax error is the result of any sideways positioning of the direction of sighting. It is therefore important to ensure that the eye is at 90 degrees to the work surface in order to get a _ reading."
         ],
         "correctAnswers": [
-            "D"
+            "true"
         ]
     },
     "21": {
         "Type": "F",
-        "Question": " Fill in the gaps: ",
+        "Question": " Rectangular coordinates: ",
         "Solutions": [
-            "Manual handling operations can be defined as any means of _ or _ a load (including _, putting down, _, pulling, carrying or moving) by hand or _ force."
+            "These are coordinates in which dimensions are at _ angles to one another."
         ],
         "correctAnswers": [
-            "transporting",
-            "supporting",
-            "lifting",
-            "pushing",
-            "bodily"
+            "right"
         ]
     },
     "22": {
-        "Type": "M",
-        "Question": " Back strains are the least common cause of worksite injuries than any other factor",
+        "Type": "F",
+        "Question": " Polar coordinates: ",
         "Solutions": [
-            "A True",
-            "B False"
+            "Where a dimension is measured in a radial line from the _."
         ],
         "correctAnswers": [
-            "B"
+            "datum"
         ]
     },
     "23": {
         "Type": "F",
-        "Question": " In terms of carrying heavy loads:",
+        "Question": " Chain and progressive dimensioning: ",
         "Solutions": [
-            " LITE is an important attribute which stands for _ _ _ and _."
+            " Chain dimensioning is where each dimension is taken from the previous dimension and this can result in cumulative _, where discrepancies in one dimension are magnified along the plate. Progressive dimensioning is where dimensions are taken from a 'known' _. If there is a discrepancy it will only impact on that particular dimension, increasing accuracy overall. "
         ],
         "correctAnswers": [
-            "Load",
-            "Induvidual",
-            "Task",
-            "Environment"
-        ]
-    },
-    "24": {
-        "Type": "F",
-        "Question": " When lifting the weight is is important to remember to: ",
-        "Solutions": [
-            "Think before lifting/handling the weight and _ the lift.",
-            "Keep the load close to the _.",
-            "Adopt a _ position.",
-            "Get a good _.",
-            "Start in a good _, bending the knees and keeping the back straight.",
-            "Dont _ the back and further while lifing.",
-            "Do not lift or handle more than can be easily managed."
-        ],
-        "correctAnswers": [
-            "plan",
-            "waist",
-            "stable",
-            "handle/hold",
-            "posture",
-            "flex"
-        ]
-    },
-    "25": {
-        "Type": "M",
-        "Question": " Working from heights is the single biggest cause of workplace deaths and one of the main causes of injuries.",
-        "Solutions": [
-            "A True",
-            "B False"
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "26": {
-        "Type": "M",
-        "Question": " All working from height has to be risk assessed while the work is in the planning stage",
-        "Solutions": [
-            "A True",
-            "B False"
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "27": {
-        "Type": "M",
-        "Question": " What type of safety sign shows a black symbol on a yellow background bordered by a black triangle?",
-        "Solutions": [
-            "A Warning",
-            "B Information",
-            "C Prohibition",
-            "D Mandatory"
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "28": {
-        "Type": "M",
-        "Question": " Which of the following signs shows the color blue?",
-        "Solutions": [
-            "A Warning",
-            "B Information",
-            "C Mandatory",
-            "D Prohibition"
-        ],
-        "correctAnswers": [
-            "C"
-        ]
-    },
-    "29": {
-        "Type": "M",
-        "Question": " Which of the following signs shows the color green?",
-        "Solutions": [
-            "A Warning",
-            "B Information",
-            "C Mandatory",
-            "D Prohibition"
-        ],
-        "correctAnswers": [
-            "B"
-        ]
-    },
-    "30": {
-        "Type": "M",
-        "Question": " Which of the following signs shows the color red?",
-        "Solutions": [
-            "A Warning",
-            "B Information",
-            "C Mandatory",
-            "D Prohibition"
-        ],
-        "correctAnswers": [
-            "D"
-        ]
-    },
-    "31": {
-        "Type": "F",
-        "Question": " Fill in the blanks: ",
-        "Solutions": [
-            "PPE should be provided free of charge by your _. While carrying out your day to day work duties you'll need to use/wear various items of PPE including _ to keep your eyes safe and _ to help prevent dermatitis. _ must be work to protect toes, feet and _. Ensuring they are kept in good state of repair can also help to protect from _."
-        ],
-        "correctAnswers": [
-            "employer",
-            "safety goggles",
-            "barrier cream/gloves",
-            "safety boots",
-            "injury/electrocution"
-        ]
-    },
-    "32": {
-        "Type": "M",
-        "Question": " Electricity on a construction site must be reduced to a lower voltage. Which voltage should be used?",
-        "Solutions": [
-            "A 203V",
-            "B 24V",
-            "C 110V",
-            "D 400V"
-        ],
-        "correctAnswers": [
-            "C"
-        ]
-    },
-    "33": {
-        "Type": "M",
-        "Question": " All of the following are important considerations before lifting a load except one. Which one?",
-        "Solutions": [
-            "A Making trial lifts on similar loads",
-            "B Getting help if the load is too heavy",
-            "C Checking that doors are opened if you have to carry the load through them",
-            "D Checking the total load for any sharp edges"
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "34": {
-        "Type": "M",
-        "Question": " There are two main types of causes of accidents; Environmental or Human. Select human causes only.",
-        "Solutions": [
-            "A Defective tools and equipment",
-            "B Poor ventilation",
-            "C Bad and foolish behaviour",
-            "D Carelessness",
-            "E Unguarded machinery",
-            "F Poorly lit workspaces",
-            "G Fatigue",
-            "H Improper dress",
-            "I Lack of experience",
-            "J Excessive noise",
-            "K Overcrowded or untity workspaces",
-            "L Poor supervision",
-            "M Use of alcohol or drugs"
-        ],
-        "correctAnswers": [
-            "C",
-            "D",
-            "G",
-            "H",
-            "I",
-            "L",
-            "M"
-        ]
-    },
-    "35": {
-        "Type": "F",
-        "Question": " Safety in the workplace falls into three main categories: ",
-        "Solutions": [
-            "Personal _.",
-            "Safety from _ and electric _.",
-            "_ procedures for dealing with accidents"
-        ],
-        "correctAnswers": [
-            "protection",
-            "electricity",
-            "shock",
-            "emergency"
-        ]
-    },
-    "36": {
-        "Type": "M",
-        "Question": " Legislation which governs the requirements of the assessment of risks are: ",
-        "Solutions": [
-            "A The Health and Safety at Work Act 1974",
-            " B The Health and Safety Commission(HSC)",
-            "C The Health and Safety Regulations (HSR)",
-            "D The Management of Health and Safety at Work Regulations 1999."
-        ],
-        "correctAnswers": [
-            "D"
-        ]
-    },
-    "37": {
-        "Type": "M",
-        "Question": " It is a legal requirement that risks in your workplace are assessed",
-        "Solutions": [
-            "A True",
-            "B False"
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "38": {
-        "Type": "F",
-        "Question": " The Five steps to Risk Assessment include: ",
-        "Solutions": [
-            "Step 1: Identify the _",
-            "Step 2: Decide _ might be harmed and how",
-            "Step 3: Evalutate the _ and decide on _.",
-            "Step 4: Record your findings and _ them.",
-            "Step 5: Review your assesment and update if necessary."
-        ],
-        "correctAnswers": [
-            "hazards",
-            "who",
-            "risk/risks",
-            "precautions",
-            "implement"
-        ]
-    },
-    "39": {
-        "Type": "F",
-        "Question": " The are two terms which you need to understand when considering a risk assesment: ",
-        "Solutions": [
-            " A _ is anything that may cause harm, such as chemicals, flame, working from ladders, hot metal, arc electrodes etc.",
-            "A _ is the chance, high or low, that somebody could be harmed by these and other hazards, toghether with and indication of how serious that harm could be."
-        ],
-        "correctAnswers": [
-            "hazard",
-            "risk"
-        ]
-    },
-    "40": {
-        "Type": "F",
-        "Question": " The risk rating is calculated by: ",
-        "Solutions": [
-            " The _ rating multiplied by the _ rating."
-        ],
-        "correctAnswers": [
-            "likelihood",
-            "serverity"
-        ]
-    },
-    "41": {
-        "Type": "F",
-        "Question": " Risk factors are then calculated using the simple formula: ",
-        "Solutions": [
-            " Risk factor = _ x _"
-        ],
-        "correctAnswers": [
-            "likelihood",
-            "consequence"
-        ]
-    },
-    "42": {
-        "Type": "M",
-        "Question": " The purpose of a risk assessment is to: ",
-        "Solutions": [
-            "A Assess the level of risk to people that may be present in work operations",
-            "B Assess the extent of the risk that a particular job might result in a loss of profit to the company",
-            "C Assess the value of a customer's property for instance purposes when damage has been caused to the property for insurance purposes when damage has been caused to property",
-            "D Assess the possible costs of an insurance claim by operatives who have been injured at work."
-        ],
-        "correctAnswers": [
-            "A"
-        ]
-    },
-    "43": {
-        "Type": "M",
-        "Question": " Which formula can be used to determine the risk factor?",
-        "Solutions": [
-            " A Time x Cost",
-            "B Cost x Likelihood",
-            "C Consequence x Cost",
-            "D Likelihood x Consequence"
-        ],
-        "correctAnswers": [
-            "D"
-        ]
-    },
-    "44": {
-        "Type": "M",
-        "Question": " Who is responsible for carrying out written risk assessments?",
-        "Solutions": [
-            "A The HSE",
-            "B The Employee",
-            "C The Client",
-            "D The employer"
-        ],
-        "correctAnswers": [
-            "D"
-        ]
-    },
-    "45": {
-        "Type": "F",
-        "Question": " In terms of escape routes:",
-        "Solutions": [
-            " All escape routes should be clearly _ by the provision of adequate signage and emergency _. These signs should be placed along the _ and emergency exit _. These route must be kept _."
-        ],
-        "correctAnswers": [
-            "identifiable/visible/indentified",
-            "lighting",
-            "doors",
-            "route",
-            "clear"
-        ]
-    },
-    "46": {
-        "Type": "F",
-        "Question": " As a reminder, COSHH stands for: ",
-        "Solutions": [
-            " _ of _ _ to _."
-        ],
-        "correctAnswers": [
-            "control",
-            "hazardous",
-            "substance",
-            "health."
-        ]
-    },
-    "47": {
-        "Type": "F",
-        "Question": " COSHH standards dictate that: ",
-        "Solutions": [
-            "1. Control measures must be taken to ensure that equipment is properly maintained and _ procedures are _.",
-            "2. Employees must be informed and _ (and where necessary receive specialist training) about the risks associated with _ substances, following all the necessary _ as required.",
-            "3. Employees must hold a copy of a Material Safety Data Sheet for every hazardous and dangerous substances they use."
-        ],
-        "correctAnswers": [
-            "safety",
-            "observed",
-            "instructed",
-            "substances",
-            "precautions"
-        ]
-    },
-    "48": {
-        "Type": "F",
-        "Question": " Fill in the gaps: ",
-        "Solutions": [
-            "CHIP : _ _ _ _ for supply regulations 2002. States that all primary containers of hazardous or dangerous substances must be correctly _ as to identify their danger."
-        ],
-        "correctAnswers": [
-            "chemicals",
-            "hazard",
-            "information",
-            "packaging"
-        ]
-    },
-    "49": {
-        "Type": "F",
-        "Question": " The three main fatal diseases caused by asbestos are : ",
-        "Solutions": [
-            "A : _ or scarring of the _ leading to _ of breath.",
-            "B Lung _ ",
-            "C Mesothelioma, or scarring of the _"
-        ],
-        "correctAnswers": [
-            "Asbestiosis",
-            "lung",
-            "shortness",
-            "cancer",
-            "stomach"
-        ]
-    },
-    "50": {
-        "Type": "M",
-        "Question": " There are three main types of asbestos. Chrysotile, Amosite or Crocidolite. Identify their corresponding colors: ",
-        "Solutions": [
-            "A Red ",
-            "B Yellow",
-            "C Orange",
-            "D White",
-            "E Green",
-            "F Brown",
-            "G Black",
-            "H Blue"
-        ],
-        "correctAnswers": [
-            "D",
-            "G",
-            "H"
-        ]
-    },
-    "51": {
-        "Type": "F",
-        "Question": " The current regulations which gives fire authorities direct enforcement responsibility are the.",
-        "Solutions": [
-            " _ _ (_ Safety) _ 2005"
-        ],
-        "correctAnswers": [
-            "regulatory",
-            "reform",
-            "fire",
-            "order"
-        ]
-    },
-    "52": {
-        "Type": "M",
-        "Question": " Select the correct regulations imposed by the Regulatory Reform Fire Safety Order 2005. ",
-        "Solutions": [
-            " A The duty to maintain Building Regulation standards for the use and protections of the Fire Service",
-            "B The duty to appoint one or more employees to assist in ensuring the compliance with the Regulations(such as fire marshal).",
-            "C The duty to prevent fire spreading",
-            "D The duty to respond to ongoing fires",
-            "E The duty to complete fire risk",
-            "assessment."
-        ],
-        "correctAnswers": [
-            "A",
-            "B",
-            "C",
-            "E"
-        ]
-    },
-    "53": {
-        "Type": "F",
-        "Question": " Fill in the gaps: ",
-        "Solutions": [
-            " As with the _ and _ at _ _ 1974. It is up to the responsible person to demonstrate that they did everything 'reasonably _ ' to prevent injury."
-        ],
-        "correctAnswers": [
-            "health",
-            "safety",
-            "work",
-            "act",
-            "practicible"
-        ]
-    },
-    "54": {
-        "Type": "F",
-        "Question": " Fill in the gaps: ",
-        "Solutions": [
-            " In order to keep workplaces safe from fire it is important to, keep workplaces _ and _, not leaving _ materials lying around. Fuses and _ welding _ are of correct rating and curcuits are not _."
-        ],
-        "correctAnswers": [
-            "clean/tidy",
-            "clean/tidy",
-            "flammable",
-            "arc",
-            "cables",
-            "overloaded"
-        ]
-    },
-    "55": {
-        "Type": "F",
-        "Question": " What is a fire? Name the three components : ",
-        "Solutions": [
-            "_ (Combustible _) ",
-            " _ (air)",
-            "_ (_, _ or match)"
-        ],
-        "correctAnswers": [
-            "fuel",
-            "material",
-            "oxygen",
-            "heat",
-            "spark",
-            "friction"
-        ]
-    },
-    "56": {
-        "Type": "F",
-        "Question": " If you discover a fire, there are a range of procedures you should follow. Place them in order: ",
-        "Solutions": [
-            "_ Call the Fire Service out",
-            "_ Leave by the nearest exit",
-            "_ If in doubt stay out",
-            "_ Raise the alarm"
-        ],
-        "correctAnswers": [
-            "3",
-            "2",
-            "4",
-            "1"
-        ]
-    },
-    "57": {
-        "Type": "F",
-        "Question": " Order the classes of fire correctly according to fuel type",
-        "Solutions": [
-            " Class _ Fires involving metals",
-            "Class _ Fires involving cooking oils and fats",
-            "Class _ Fires involing flammable liquids and liquifiable solids",
-            "Class _ Fires involving flammable gases",
-            "Class _ Fires involving organic substances such as paper and wood"
-        ],
-        "correctAnswers": [
-            "D",
-            "F",
-            "B",
-            "C",
-            "A"
-        ]
-    },
-    "58": {
-        "Type": "F",
-        "Question": " Fill in the gaps of fire extinguisher types: ",
-        "Solutions": [
-            " Powder(_) , uses: _ and _ fires, DO NOT USE: on _ fires.",
-            "_(RED) uses Wood, paper, textile and solid _ fires.DO NOT USE: electrical fires, metal or burning _/_",
-            "_ _ CO2 (BLACK). Uses: _ and _ fires. DO NOT USE: _ fires.",
-            "FOAM/AFF (_/_). Uses liquid fires. DO NOT USE: electrical or _ fires."
-        ],
-        "correctAnswers": [
-            "blue",
-            "liquid",
-            "electrical",
-            "metal",
-            "water",
-            "material",
-            "fat",
-            "carbon",
-            "dioxide",
-            "liquid",
-            "electrical",
-            "metal",
-            "white",
-            "cream",
-            "metal"
-        ]
-    },
-    "59": {
-        "Type": "F",
-        "Question": " Under the Controlled Waste Regulations 1998; Waste may require specialist disposal if it: ",
-        "Solutions": [
-            " is considered to have _ properties."
-        ],
-        "correctAnswers": [
-            "harmful/hazardous"
+            "error",
+            "datum"
         ]
     }
 }
