@@ -10,6 +10,7 @@ from .forms import CatalogStringForm
 from pathlib import Path
 import os 
 from .models import question
+import platform
 # Create your views here.
 
 
@@ -27,18 +28,28 @@ def take_tma_view(request):
 
 def take_module_page(request):
     return render(request, 'takeModule.html')
+    
 
 def take_module_question(request):
+ ifFinished = 'Thank you for taking the test!'
  dest1 = question()
- 
- file ='\module'+get_module_number()+'.txt'
+ if platform.system() == 'Linux':
+    module = '/module'
+ else:
+    module = '\module'
+ file = module+get_module_number()+'.txt'
  path = os.getcwd()+file
  question_no = get_moduleQuiz_question_number()
  res = get_module(path)
+ totalQuestionNo = get_no_of_test_questions()
+ if question_no > totalQuestionNo:
+    dest2 = ifFinished
+    return render(request, 'finished.html', {'dest2' : dest2})
  res = res[str(question_no)]
+ print(res)
  increment_test_question()
  dest1.module_number = get_module_number()
- question_count = str(question_no) + '/'+ str(get_no_of_test_questions())
+ question_count = str(question_no) + '/'+ str(totalQuestionNo)
  dest2 = (res, get_module_number(), question_count )
  return render(request, 'testModule.html/', {'dest2' : dest2 })
 
@@ -66,7 +77,7 @@ def get_module(module_loc):
                 "Type" : questionObject[0],
                 "Question" : questionObject[1],
                 "Solutions" : questionObject[2],
-                "CorrectAnswers": questionObject[3]}
+                "correctAnswers": questionObject[3]}
             quizQuestions[str(counter)] = questionObj
         print(quizQuestions[str(counter)])
         counter+=1
@@ -148,7 +159,7 @@ def increment_correct_answers():
         f.write(write_text)
 
 def get_no_of_test_questions():
-    file ='\module'+get_module_number()+'.txt'
+    file ='/module'+get_module_number()+'.txt'
     path = os.getcwd()+file
     with open(path) as f:
         return len(f.readlines())
@@ -164,7 +175,10 @@ def new_test(module):
 
 
 def take_tma_03(request):
-    file = '\TMA03.txt'
+    if platform.system() == 'Linux':
+        file = '/TMA03.txt'
+    else:
+     file = '\TMA03.txt'
     path = os.getcwd()+file
     questions = get_questions_TMA(path)
     quizQuestions = dict()

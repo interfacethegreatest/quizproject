@@ -1,507 +1,862 @@
 {
     "1": {
-        "Type": "F",
-        "Question": " Atoms can be described as having: ",
+        "Type": "M",
+        "Question": "What are the two main bodies responsible for the establishment and implementation of health and safety laws?",
         "Solutions": [
-            " a very small negative electrical charge surrounding a larger and heavier centre called a _. This contains a densely packed protons which carry a positive charge."
+            "A The Health and Safety Regulations (HSR)",
+            "B The Health and Safety Commission(HSC)",
+            "C The Health and Safety Executive(HSE)",
+            "D The Management of Health and Safety at work (HSW)"
         ],
-        "CorrectAnswers": [
-            "nucleus"
+        "correctAnswers": [
+            "C",
+            "B"
         ]
     },
     "2": {
         "Type": "F",
-        "Question": " The most stable configuration of atoms have: ",
+        "Question": "Most signs warn of possible danger. What are the four main groups of safety signs? (WIMP)",
         "Solutions": [
-            "_ atoms in their outer shell"
+            "_ signs",
+            "_ signs",
+            "_ signs",
+            "_signs"
         ],
-        "CorrectAnswers": [
-            "eight/8"
+        "correctAnswers": [
+            " Warning",
+            "Information",
+            "Safety",
+            "Prohibition"
         ]
     },
     "3": {
-        "Type": "F",
-        "Question": " Molecules :",
+        "Type": "M",
+        "Question": "Which guidelines govern protective clothing?",
         "Solutions": [
-            " Containing two or more _ are called a _."
+            "A The Personal Protective Equipment at Work Regulations",
+            "B The Management of Health and Safety at work (HSW)",
+            "C The Health and Safety at Regulations",
+            "D The Protective Equipment At Work Regulations"
         ],
-        "CorrectAnswers": [
-            "element",
-            "compound"
+        "correctAnswers": [
+            "A"
         ]
     },
     "4": {
-        "Type": "F",
-        "Question": " Mixtures: ",
+        "Type": "M",
+        "Question": "Who has a resposibility to assess any work related risks?",
         "Solutions": [
-            " Mixtures are the combinations of two or more elements that can be separated _ a chemical reaction."
+            "A The Employee",
+            "B The Employer",
+            "C The Clothing Comission",
+            "D Your Supervisor"
         ],
-        "CorrectAnswers": [
-            "without"
+        "correctAnswers": [
+            "B"
         ]
     },
     "5": {
-        "Type": "F",
-        "Question": " Plastics: ",
+        "Type": "M",
+        "Question": "What should your employer ensure with regard to your PPE?",
         "Solutions": [
-            " Carbon",
-            "based compounds are the basis of all of the plastics and more importantly life. Carbon",
-            "based compounds are constructed from a small number of elements: _, _ and _ mainly."
+            "A All PPE is free",
+            "B PPE is suitable for purpose",
+            "C Information to maintain clean and replace PPE",
+            "D Storage provisions",
+            "E PPE is maintained and in good repair",
+            "F PPE is used properly"
         ],
-        "CorrectAnswers": [
-            "oxygen/carbon/hydrogen",
-            "oxygen/carbon/hydrogen",
-            "oxygen/carbon/hydrogen"
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
         ]
     },
     "6": {
         "Type": "F",
-        "Question": " Monomers: ",
+        "Question": "What are the three main types of Eye Protection available to you?",
         "Solutions": [
-            " A monomer is a molecule that is able to bond with other _'s to form _ _"
+            "_ glasses",
+            "_ goggles",
+            "Full _ mask"
         ],
-        "CorrectAnswers": [
-            "monomer/monomers",
-            "long",
-            "chain/chains"
+        "correctAnswers": [
+            "safety",
+            "face"
         ]
     },
     "7": {
-        "Type": "F",
-        "Question": " Polymers: ",
+        "Type": "M",
+        "Question": "Which situations require use of eye protection?",
         "Solutions": [
-            " Can be made up of thousands of _, linking up monomers is called _."
+            "A Drilling above your head",
+            "B Drilling of chiselling masonry",
+            "C Drilling or chiselling metal",
+            "D Driving nails into masonry",
+            "E Grinding or using grinding equipment"
         ],
-        "CorrectAnswers": [
-            "monomers",
-            "polymerisation"
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
         ]
     },
     "8": {
-        "Type": "F",
-        "Question": " Metal properties : Tensile strength",
+        "Type": "M",
+        "Question": "Which percentage of injuries does toe and foot injuries account for?",
         "Solutions": [
-            " Tensile strength is the measure of a metals abilities to withstand being pulled apart or a stretching load. There are two types of tensile strength measurements: ",
-            "Ultimate tensile _, which is the maximum _ a material can hold.",
-            "The proof load, or _ point. Measuring the point at which the material becomes _."
+            "A 5%",
+            "B 10%",
+            "C 15%",
+            "D 20%",
+            "E 25%"
         ],
-        "CorrectAnswers": [
-            "strength",
-            "load",
-            "yield",
-            "deformed"
+        "correctAnswers": [
+            "C"
         ]
     },
     "9": {
-        "Type": "F",
-        "Question": " Elasticity:",
+        "Type": "M",
+        "Question": "Which percentage of injuries do hand injuries account for?",
         "Solutions": [
-            " The measure of a material to be able to return back to its original shape after being _ by a force or a load."
+            "A One in Ten",
+            "B One in five",
+            "C One in three",
+            "D One in Four"
         ],
-        "CorrectAnswers": [
-            "stretched"
+        "correctAnswers": [
+            "D"
         ]
     },
     "10": {
-        "Type": "F",
-        "Question": " Ductility: ",
+        "Type": "M",
+        "Question": "What ways is dermatites (irritation of the skin) evident?",
         "Solutions": [
-            " The measure of a the ability to be drawn into a wire or tube without fractrue or failure. The ductility is measured in a tensile test machine by measuring how far it stretched from it's _ length."
+            "A Sores",
+            "B blisters",
+            "C Redness",
+            "D Dry cracked skin",
+            "E Psoriasis",
+            "F Eczema"
         ],
-        "CorrectAnswers": [
-            "original"
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
         ]
     },
     "11": {
         "Type": "F",
-        "Question": " Malleability: ",
+        "Question": "What types of whole body protection will you need to use?",
         "Solutions": [
-            " The ability to be formed or bent into a shape without _ or _. Materials which are highly malleable tend to be _. ",
-            "As materials are formed grains become more tightly compressed and the material becomes less malleable, this is known as work _."
+            " A High visibility _",
+            "B High visibility _",
+            "C Protective _"
         ],
-        "CorrectAnswers": [
-            "fracture/failure",
-            "fracture/failure",
-            "ductile",
-            "hardening"
+        "correctAnswers": [
+            "vest,jacket,overalls"
         ]
     },
     "12": {
         "Type": "F",
-        "Question": " Brittleness: ",
+        "Question": "What does RPE stand for?",
         "Solutions": [
-            " Brittleness, is the opposite of _.",
-            "The tenedency for a material to 'brittle fracture' without bending or changing shape."
+            "_ Protective equipment."
         ],
-        "CorrectAnswers": [
-            "malleability"
+        "correctAnswers": [
+            "respiratory"
         ]
     },
     "13": {
-        "Type": "F",
-        "Question": " Shear strength: ",
+        "Type": "M",
+        "Question": "What two types of RPE should you consider?",
         "Solutions": [
-            "The ability to withstand offset loads without _. Generally considerably less than tensile strength."
+            "A Simple face mask",
+            "B Surgical face mask",
+            "C Half face respirator"
         ],
-        "CorrectAnswers": [
-            "fracture"
+        "correctAnswers": [
+            "A",
+            "C"
         ]
     },
     "14": {
         "Type": "F",
-        "Question": " Compressive strength: ",
+        "Question": "Fill in the gaps for the use of common working tools: ",
         "Solutions": [
-            " The ability to withstand squashing forces without being permanently _."
+            "Cutting tools and drills must be kept _ and in good condition.",
+            "_ should be fitted properly to tools such as hammers and files",
+            "Common items of equipment, barrows, trucks, buckets, rope and tackle are likely to deteriorate with use. Unservicable tools should never be used and should be _ and _.",
+            "It is particularly important to check that _ and _ of hand",
+            "held electically operated tools is in good condition before plugged in.",
+            "If you are an employer, bring any _ to the attention of your line manager for confimation of _ or _.",
+            "Remove any potential hazards or dangerous _ to minimize potential risk."
         ],
-        "CorrectAnswers": [
-            "Crushed"
+        "correctAnswers": [
+            "sharp",
+            "handles",
+            "removed",
+            "replaced",
+            "plugs",
+            "cables",
+            "fault",
+            "disposal",
+            "repair",
+            "substances"
         ]
     },
     "15": {
-        "Type": "F",
-        "Question": " Deflection: ",
+        "Type": "M",
+        "Question": "It is a criminal offence to disable or remove a safety guard.",
         "Solutions": [
-            "The ability of a mateiral to withstand a load without _ out of shape. "
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            "flexing"
+        "correctAnswers": [
+            "A"
         ]
     },
     "16": {
-        "Type": "F",
-        "Question": " Toughness : ",
+        "Type": "M",
+        "Question": " On average how many people are killed by an electric shock per year?",
         "Solutions": [
-            " The ability to withstand _. e.g. from a hammer blow."
+            "A 5",
+            "B 20",
+            "C 50",
+            "D 100"
         ],
-        "CorrectAnswers": [
-            "Impact"
+        "correctAnswers": [
+            "B"
         ]
     },
     "17": {
-        "Type": "F",
-        "Question": " Hardness: ",
+        "Type": "M",
+        "Question": " Which voltage of mains electricity does kill?",
         "Solutions": [
-            "The ability of a material to withstand _, indentation or scratching.The depth of the indentation is often measured which gives the hardness result."
+            " A 120V DC",
+            "B 120V AC",
+            "C 230V DC",
+            "D 230V AC"
         ],
-        "CorrectAnswers": [
-            "scratching"
+        "correctAnswers": [
+            "D"
         ]
     },
     "18": {
-        "Type": "F",
-        "Question": " _:",
+        "Type": "M",
+        "Question": "The safe use of electricity is covered by the: ",
         "Solutions": [
-            " is the ability of a _ material to pass heat or electricity."
+            "A The Personal Protective Equipment at Work Regulations 1992",
+            "B The electricity at Work Regulations 1989.",
+            "C The Health and Safety Executive",
+            "D The Health and Safety at Work Act 1974."
         ],
-        "CorrectAnswers": [
-            "solid"
+        "correctAnswers": [
+            "B",
+            "D"
         ]
     },
     "19": {
-        "Type": "F",
-        "Question": " _ strength: ",
+        "Type": "M",
+        "Question": "Power tools must be double insulated",
         "Solutions": [
-            "is the oppposite of _; it is the ability of a mateiral to resist an electrical field."
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            "conductivity"
+        "correctAnswers": [
+            "A"
         ]
     },
     "20": {
-        "Type": "F",
-        "Question": " Creep: ",
+        "Type": "M",
+        "Question": "The maximum voltage for power tools on sites is: ",
         "Solutions": [
-            "Is the tendency of meterials to _ under stress over a period of _ and _."
+            "A 50",
+            "B 75",
+            "C 95",
+            "D 110",
+            "E 140"
         ],
-        "CorrectAnswers": [
-            "deform",
-            "time",
-            "temperature"
+        "correctAnswers": [
+            "D"
         ]
     },
     "21": {
         "Type": "F",
-        "Question": " Metal Fatigue: ",
+        "Question": " Fill in the gaps: ",
         "Solutions": [
-            "Caused by repeated cyclic _. Metal fatigue is hard to detect, as _ fractures which are difficult to see can cause catastrophic _."
+            "Manual handling operations can be defined as any means of _ or _ a load (including _, putting down, _, pulling, carrying or moving) by hand or _ force."
         ],
-        "CorrectAnswers": [
-            "loading",
-            "failure"
+        "correctAnswers": [
+            "transporting",
+            "supporting",
+            "lifting",
+            "pushing",
+            "bodily"
         ]
     },
     "22": {
-        "Type": "F",
-        "Question": " Ferrous metals: ",
+        "Type": "M",
+        "Question": " Back strains are the least common cause of worksite injuries than any other factor",
         "Solutions": [
-            "Carbon steels. The properties and characteristics of carbon steel depend on the quality of _ in the steel.Common carbon steel combinations are: ",
-            "Dead mild steel at 0.05",
-            "0.15% carbon",
-            "Mild steel containing 0.15",
-            "0.3% carbon",
-            "Medium steel at 0.3",
-            "0.8%",
-            "High carbon steel 0.8",
-            "1.5%",
-            "Grey cast iron 1.7% carbon."
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            "carbon"
+        "correctAnswers": [
+            "B"
         ]
     },
     "23": {
         "Type": "F",
-        "Question": " Stainless steel: ",
+        "Question": " In terms of carrying heavy loads:",
         "Solutions": [
-            "One of the best chemical",
-            "corrosion resistant materials. Used extensively in food, marine and petrochemical industries."
+            " LITE is an important attribute which stands for _ _ _ and _."
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "Load",
+            "Induvidual",
+            "Task",
+            "Environment"
         ]
     },
     "24": {
         "Type": "F",
-        "Question": " Stainless steels: ",
+        "Question": " When lifting the weight is is important to remember to: ",
         "Solutions": [
-            "Martensitic, can be _. Used in chefs knives."
+            "Think before lifting/handling the weight and _ the lift.",
+            "Keep the load close to the _.",
+            "Adopt a _ position.",
+            "Get a good _.",
+            "Start in a good _, bending the knees and keeping the back straight.",
+            "Dont _ the back and further while lifing.",
+            "Do not lift or handle more than can be easily managed."
         ],
-        "CorrectAnswers": [
-            "Hardened"
+        "correctAnswers": [
+            "plan",
+            "waist",
+            "stable",
+            "handle/hold",
+            "posture",
+            "flex"
         ]
     },
     "25": {
-        "Type": "F",
-        "Question": " Stainless steels: ",
+        "Type": "M",
+        "Question": " Working from heights is the single biggest cause of workplace deaths and one of the main causes of injuries.",
         "Solutions": [
-            "Ferritic, hard and _. Used where corrosion resistance is needed such as furnace parts."
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            "brittle"
+        "correctAnswers": [
+            "A"
         ]
     },
     "26": {
-        "Type": "F",
-        "Question": " Stainless steels:",
+        "Type": "M",
+        "Question": " All working from height has to be risk assessed while the work is in the planning stage",
         "Solutions": [
-            " Austenitic, malleable and weldable. Commonly used in the medical industries."
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "A"
         ]
     },
     "27": {
-        "Type": "F",
-        "Question": " Stainless steels:",
+        "Type": "M",
+        "Question": " What type of safety sign shows a black symbol on a yellow background bordered by a black triangle?",
         "Solutions": [
-            " Duplex, malleable and weldable. Commonly used in the medical industries."
+            "A Warning",
+            "B Information",
+            "C Prohibition",
+            "D Mandatory"
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "A"
         ]
     },
     "28": {
-        "Type": "F",
-        "Question": " Aluminium alloys: ",
+        "Type": "M",
+        "Question": " Which of the following signs shows the color blue?",
         "Solutions": [
-            "White appearing, light weight and corrosion resistant and non",
-            "magnetric. Alluminium alloys are used for their commercial fast",
-            "repaired nature."
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "C"
         ]
     },
     "29": {
-        "Type": "F",
-        "Question": " Aluminium 5000 series: ",
+        "Type": "M",
+        "Question": " Which of the following signs shows the color green?",
         "Solutions": [
-            "These are containing _ with additions of magnesium. Known to quickly become work hardened with high tensile strength.",
-            "Easily weldable, heat treated and are corrosion resistant."
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
         ],
-        "CorrectAnswers": [
-            "copper"
+        "correctAnswers": [
+            "B"
         ]
     },
     "30": {
-        "Type": "F",
-        "Question": " Lead: ",
+        "Type": "M",
+        "Question": " Which of the following signs shows the color red?",
         "Solutions": [
-            " Lead is exceptionally _, with good corrosion and chemical resistant properties. Although is also known to have poor _. Lead has poor soundproofing also, while being known as a common radiation _."
+            "A Warning",
+            "B Information",
+            "C Mandatory",
+            "D Prohibition"
         ],
-        "CorrectAnswers": [
-            "malleable",
-            "creep",
-            "shield"
+        "correctAnswers": [
+            "D"
         ]
     },
     "31": {
         "Type": "F",
-        "Question": " Copper: ",
+        "Question": " Fill in the blanks: ",
         "Solutions": [
-            "Copper alloys are good conductors of _ and _. They are very ductile and malleable. They can be easily joined with solder, ideal for plumbing."
+            "PPE should be provided free of charge by your _. While carrying out your day to day work duties you'll need to use/wear various items of PPE including _ to keep your eyes safe and _ to help prevent dermatitis. _ must be work to protect toes, feet and _. Ensuring they are kept in good state of repair can also help to protect from _."
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "employer",
+            "safety goggles",
+            "barrier cream/gloves",
+            "safety boots",
+            "injury/electrocution"
         ]
     },
     "32": {
-        "Type": "F",
-        "Question": " Brass: ",
+        "Type": "M",
+        "Question": " Electricity on a construction site must be reduced to a lower voltage. Which voltage should be used?",
         "Solutions": [
-            "Alloy of copper and between 29% and 40% zinc. Brass with lower than 36% zinc can be _ worked. Above 36% are hard and brittle."
+            "A 203V",
+            "B 24V",
+            "C 110V",
+            "D 400V"
         ],
-        "CorrectAnswers": [
-            "cold"
+        "correctAnswers": [
+            "C"
         ]
     },
     "33": {
-        "Type": "F",
-        "Question": " Thermoplastics, Polyvinyl chloride",
+        "Type": "M",
+        "Question": " All of the following are important considerations before lifting a load except one. Which one?",
         "Solutions": [
-            " Polyvinyl chloride is a durable cheap, longlasting thermoplastic. Used extensively in the production of pipes, cables and guttery / upholstery. It is useful because it is resistant to _ and _. Because of its _ resistance it is used to make raincoats and shower curtains. When it burns it releases chlorine which inhibit _."
+            "A Making trial lifts on similar loads",
+            "B Getting help if the load is too heavy",
+            "C Checking that doors are opened if you have to carry the load through them",
+            "D Checking the total load for any sharp edges"
         ],
-        "CorrectAnswers": [
-            "fire/water",
-            "fire/water",
-            "water",
-            "combustion"
+        "correctAnswers": [
+            "A"
         ]
     },
     "34": {
-        "Type": "F",
-        "Question": " Thermoplastics, poly methyl methacrylate:",
+        "Type": "M",
+        "Question": " There are two main types of causes of accidents; Environmental or Human. Select human causes only.",
         "Solutions": [
-            " PMMA or perspex is commonly _ or can be pigmented. Uses include aircraft windows, building panels, welding shields and screens."
+            "A Defective tools and equipment",
+            "B Poor ventilation",
+            "C Bad and foolish behaviour",
+            "D Carelessness",
+            "E Unguarded machinery",
+            "F Poorly lit workspaces",
+            "G Fatigue",
+            "H Improper dress",
+            "I Lack of experience",
+            "J Excessive noise",
+            "K Overcrowded or untity workspaces",
+            "L Poor supervision",
+            "M Use of alcohol or drugs"
         ],
-        "CorrectAnswers": [
-            ""
+        "correctAnswers": [
+            "C",
+            "D",
+            "G",
+            "H",
+            "I",
+            "L",
+            "M"
         ]
     },
     "35": {
         "Type": "F",
-        "Question": " Thermosetting plastics :",
+        "Question": " Safety in the workplace falls into three main categories: ",
         "Solutions": [
-            " Urea",
-            "formaldehyde, a hard",
-            "scratch resistant theromoplastic used in switches and plugs.",
-            "Epoxy resins, formed using polyester and a curing agent or _. When combined these chemicals provide an excellent curing agent for glass and are stiff and durable."
+            "Personal _.",
+            "Safety from _ and electric _.",
+            "_ procedures for dealing with accidents"
         ],
-        "CorrectAnswers": [
-            "hardener"
+        "correctAnswers": [
+            "protection",
+            "electricity",
+            "shock",
+            "emergency"
         ]
     },
     "36": {
-        "Type": "F",
-        "Question": " Elastomers: ",
+        "Type": "M",
+        "Question": " Legislation which governs the requirements of the assessment of risks are: ",
         "Solutions": [
-            "Natural rubbers, are highly _ and have excellent vibration _. This along with good creep makes them excellent use in tyres.",
-            "Ethylene",
-            "propylene Rubber (EPM). It is a good electrical insulator, flexible and ideal for use in flexible cables like those used in welding power leads."
+            "A The Health and Safety at Work Act 1974",
+            " B The Health and Safety Commission(HSC)",
+            "C The Health and Safety Regulations (HSR)",
+            "D The Management of Health and Safety at Work Regulations 1999."
         ],
-        "CorrectAnswers": [
-            "elastic",
-            "absorbtion"
+        "correctAnswers": [
+            "D"
         ]
     },
     "37": {
-        "Type": "F",
-        "Question": " Composite: ",
+        "Type": "M",
+        "Question": " It is a legal requirement that risks in your workplace are assessed",
         "Solutions": [
-            "Glass fibres , bonded in resin to form reinforced plastic. Known to be flexible and less",
-            "susceptible to fracturing.",
-            "Aramid fibres, commonly known as 'kevlar' fibres. With _ strength fives times that of steel. They are commonly used in aerospace and body armor.",
-            "Carbon fibres made from graphite carbon atoms, they form structures which are incredibly _ and stiff. Because they do not absorb water, enabling them to be used in marine, aircraft and racing industries."
+            "A True",
+            "B False"
         ],
-        "CorrectAnswers": [
-            "tensile"
+        "correctAnswers": [
+            "A"
         ]
     },
     "38": {
         "Type": "F",
-        "Question": " Ceramics: ",
+        "Question": " The Five steps to Risk Assessment include: ",
         "Solutions": [
-            "Glass, comprised of _ and oxygen, when glass is cooled it becomes transparent, hard and brittle."
+            "Step 1: Identify the _",
+            "Step 2: Decide _ might be harmed and how",
+            "Step 3: Evalutate the _ and decide on _.",
+            "Step 4: Record your findings and _ them.",
+            "Step 5: Review your assesment and update if necessary."
         ],
-        "CorrectAnswers": [
-            "silicon"
+        "correctAnswers": [
+            "hazards",
+            "who",
+            "risk/risks",
+            "precautions",
+            "implement"
         ]
     },
     "39": {
         "Type": "F",
-        "Question": " Heat treatment of steel: ",
+        "Question": " The are two terms which you need to understand when considering a risk assesment: ",
         "Solutions": [
-            "One means of treatment of steel by transformation into a crystaline structure known as body centered cubic (BCC). With one carbon in the centre and four around it, also known as _. This form is more stable at room temperatures."
+            " A _ is anything that may cause harm, such as chemicals, flame, working from ladders, hot metal, arc electrodes etc.",
+            "A _ is the chance, high or low, that somebody could be harmed by these and other hazards, toghether with and indication of how serious that harm could be."
         ],
-        "CorrectAnswers": [
-            "ferrite"
+        "correctAnswers": [
+            "hazard",
+            "risk"
         ]
     },
     "40": {
         "Type": "F",
-        "Question": " Heat treatment of steel: ",
+        "Question": " The risk rating is calculated by: ",
         "Solutions": [
-            "A second means of treatment of steel known as Face centre cubic or FCC, gamma iron or austensite. These structures, produced via _ are more stable at elevated temperatures."
+            " The _ rating multiplied by the _ rating."
         ],
-        "CorrectAnswers": [
-            "heat"
+        "correctAnswers": [
+            "likelihood",
+            "serverity"
         ]
     },
     "41": {
         "Type": "F",
-        "Question": " Current: ",
+        "Question": " Risk factors are then calculated using the simple formula: ",
         "Solutions": [
-            " Current is the flow of electrons around a circuit and is measured in _ (A)"
+            " Risk factor = _ x _"
         ],
-        "CorrectAnswers": [
-            "Amperes"
+        "correctAnswers": [
+            "likelihood",
+            "consequence"
         ]
     },
     "42": {
-        "Type": "F",
-        "Question": " Voltage: ",
+        "Type": "M",
+        "Question": " The purpose of a risk assessment is to: ",
         "Solutions": [
-            " Voltage is the force or pressure causing current to flow. This force causes one end of a circuit to be _ charged and have an excess of electrons, whilst the other end has a _ of electrons and is positively charged. Voltage is therefore related to the _ difference. "
+            "A Assess the level of risk to people that may be present in work operations",
+            "B Assess the extent of the risk that a particular job might result in a loss of profit to the company",
+            "C Assess the value of a customer's property for instance purposes when damage has been caused to the property for insurance purposes when damage has been caused to property",
+            "D Assess the possible costs of an insurance claim by operatives who have been injured at work."
         ],
-        "CorrectAnswers": [
-            "negatively",
-            "shortage",
-            "potential"
+        "correctAnswers": [
+            "A"
         ]
     },
     "43": {
-        "Type": "F",
-        "Question": " Resistance: ",
+        "Type": "M",
+        "Question": " Which formula can be used to determine the risk factor?",
         "Solutions": [
-            " Measured in _. For a given voltage the amount of current that will flow in a curcuit is determined by the ease at which the circuit allows the current to pass. The greater the resistance the lower the _."
+            " A Time x Cost",
+            "B Cost x Likelihood",
+            "C Consequence x Cost",
+            "D Likelihood x Consequence"
         ],
-        "CorrectAnswers": [
-            "ohms",
-            "current"
+        "correctAnswers": [
+            "D"
         ]
     },
     "44": {
-        "Type": "F",
-        "Question": " Ohms law: ",
+        "Type": "M",
+        "Question": " Who is responsible for carrying out written risk assessments?",
         "Solutions": [
-            "Voltage (_) = Current (amps) x Resistance (_) "
+            "A The HSE",
+            "B The Employee",
+            "C The Client",
+            "D The employer"
         ],
-        "CorrectAnswers": [
-            "volts",
-            "ohms"
+        "correctAnswers": [
+            "D"
         ]
     },
     "45": {
         "Type": "F",
-        "Question": " Power : ",
+        "Question": " In terms of escape routes:",
         "Solutions": [
-            " The voltage _ drives a current through a resistance, electrical energy is transferred. The rate at which this transfer takes place is called the electrical power. The unit of power is the _ (W) which is a rather small unit so electrical power is often measured in _ (kW) one kW is a thousand _. "
+            " All escape routes should be clearly _ by the provision of adequate signage and emergency _. These signs should be placed along the _ and emergency exit _. These route must be kept _."
         ],
-        "CorrectAnswers": [
-            "pressure",
-            "watt/watts",
-            "kilowatt/kilowatts",
-            "watts"
+        "correctAnswers": [
+            "identifiable/visible/indentified",
+            "lighting",
+            "doors",
+            "route",
+            "clear"
+        ]
+    },
+    "46": {
+        "Type": "F",
+        "Question": " As a reminder, COSHH stands for: ",
+        "Solutions": [
+            " _ of _ _ to _."
+        ],
+        "correctAnswers": [
+            "control",
+            "hazardous",
+            "substance",
+            "health."
+        ]
+    },
+    "47": {
+        "Type": "F",
+        "Question": " COSHH standards dictate that: ",
+        "Solutions": [
+            "1. Control measures must be taken to ensure that equipment is properly maintained and _ procedures are _.",
+            "2. Employees must be informed and _ (and where necessary receive specialist training) about the risks associated with _ substances, following all the necessary _ as required.",
+            "3. Employees must hold a copy of a Material Safety Data Sheet for every hazardous and dangerous substances they use."
+        ],
+        "correctAnswers": [
+            "safety",
+            "observed",
+            "instructed",
+            "substances",
+            "precautions"
+        ]
+    },
+    "48": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            "CHIP : _ _ _ _ for supply regulations 2002. States that all primary containers of hazardous or dangerous substances must be correctly _ as to identify their danger."
+        ],
+        "correctAnswers": [
+            "chemicals",
+            "hazard",
+            "information",
+            "packaging"
+        ]
+    },
+    "49": {
+        "Type": "F",
+        "Question": " The three main fatal diseases caused by asbestos are : ",
+        "Solutions": [
+            "A : _ or scarring of the _ leading to _ of breath.",
+            "B Lung _ ",
+            "C Mesothelioma, or scarring of the _"
+        ],
+        "correctAnswers": [
+            "Asbestiosis",
+            "lung",
+            "shortness",
+            "cancer",
+            "stomach"
+        ]
+    },
+    "50": {
+        "Type": "M",
+        "Question": " There are three main types of asbestos. Chrysotile, Amosite or Crocidolite. Identify their corresponding colors: ",
+        "Solutions": [
+            "A Red ",
+            "B Yellow",
+            "C Orange",
+            "D White",
+            "E Green",
+            "F Brown",
+            "G Black",
+            "H Blue"
+        ],
+        "correctAnswers": [
+            "D",
+            "G",
+            "H"
+        ]
+    },
+    "51": {
+        "Type": "F",
+        "Question": " The current regulations which gives fire authorities direct enforcement responsibility are the.",
+        "Solutions": [
+            " _ _ (_ Safety) _ 2005"
+        ],
+        "correctAnswers": [
+            "regulatory",
+            "reform",
+            "fire",
+            "order"
+        ]
+    },
+    "52": {
+        "Type": "M",
+        "Question": " Select the correct regulations imposed by the Regulatory Reform Fire Safety Order 2005. ",
+        "Solutions": [
+            " A The duty to maintain Building Regulation standards for the use and protections of the Fire Service",
+            "B The duty to appoint one or more employees to assist in ensuring the compliance with the Regulations(such as fire marshal).",
+            "C The duty to prevent fire spreading",
+            "D The duty to respond to ongoing fires",
+            "E The duty to complete fire risk",
+            "assessment."
+        ],
+        "correctAnswers": [
+            "A",
+            "B",
+            "C",
+            "E"
+        ]
+    },
+    "53": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            " As with the _ and _ at _ _ 1974. It is up to the responsible person to demonstrate that they did everything 'reasonably _ ' to prevent injury."
+        ],
+        "correctAnswers": [
+            "health",
+            "safety",
+            "work",
+            "act",
+            "practicible"
+        ]
+    },
+    "54": {
+        "Type": "F",
+        "Question": " Fill in the gaps: ",
+        "Solutions": [
+            " In order to keep workplaces safe from fire it is important to, keep workplaces _ and _, not leaving _ materials lying around. Fuses and _ welding _ are of correct rating and curcuits are not _."
+        ],
+        "correctAnswers": [
+            "clean/tidy",
+            "clean/tidy",
+            "flammable",
+            "arc",
+            "cables",
+            "overloaded"
+        ]
+    },
+    "55": {
+        "Type": "F",
+        "Question": " What is a fire? Name the three components : ",
+        "Solutions": [
+            "_ (Combustible _) ",
+            " _ (air)",
+            "_ (_, _ or match)"
+        ],
+        "correctAnswers": [
+            "fuel",
+            "material",
+            "oxygen",
+            "heat",
+            "spark",
+            "friction"
+        ]
+    },
+    "56": {
+        "Type": "F",
+        "Question": " If you discover a fire, there are a range of procedures you should follow. Place them in order: ",
+        "Solutions": [
+            "_ Call the Fire Service out",
+            "_ Leave by the nearest exit",
+            "_ If in doubt stay out",
+            "_ Raise the alarm"
+        ],
+        "correctAnswers": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ]
+    },
+    "57": {
+        "Type": "F",
+        "Question": " Order the classes of fire correctly according to fuel type",
+        "Solutions": [
+            " Class _ Fires involving metals",
+            "Class _ Fires involving cooking oils and fats",
+            "Class _ Fires involing flammable liquids and liquifiable solids",
+            "Class _ Fires involving flammable gases",
+            "Class _ Fires involving organic substances such as paper and wood"
+        ],
+        "correctAnswers": [
+            "D",
+            "F",
+            "B",
+            "C",
+            "A"
+        ]
+    },
+    "58": {
+        "Type": "F",
+        "Question": " Fill in the gaps of fire extinguisher types: ",
+        "Solutions": [
+            " Powder(_) , uses: _ and _ fires, DO NOT USE: on _ fires.",
+            "_(RED) uses Wood, paper, textile and solid _ fires.DO NOT USE: electrical fires, metal or burning _/_",
+            "_ _ CO2 (BLACK). Uses: _ and _ fires. DO NOT USE: _ fires.",
+            "FOAM/AFF (_/_). Uses liquid fires. DO NOT USE: electrical or _ fires."
+        ],
+        "correctAnswers": [
+            "blue",
+            "liquid",
+            "electrical",
+            "metal",
+            "water",
+            "material",
+            "fat",
+            "carbon",
+            "dioxide",
+            "liquid",
+            "electrical",
+            "metal",
+            "white",
+            "cream",
+            "metal"
+        ]
+    },
+    "59": {
+        "Type": "F",
+        "Question": " Under the Controlled Waste Regulations 1998; Waste may require specialist disposal if it: ",
+        "Solutions": [
+            " is considered to have _ properties."
+        ],
+        "correctAnswers": [
+            "harmful/hazardous"
         ]
     }
 }

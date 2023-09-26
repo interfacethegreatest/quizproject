@@ -8,10 +8,107 @@
 <body>
 
 <BUTTON onclick="location.href='{% url 'generate_question'%}'"> EXECUTE quiz</BUTTON>
+{% if dest2 %}
 {% block content %}
-{{dest2}}
+<br>
+<br>
+<h1>Question {{dest2.2}}</h1>
+<h2 id="question_title"></h2>
+<br>
+<h3 id="question_text"></h3>
+<div id = "solutions"></div>
+<br>
+<div id=""></div>
+<script type="text/javascript"> 
+    function getMultipleChoiseButtonSubmitResult() {
+        const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+     checkboxes.forEach(function(checkbox) {
+        console.log(checkbox.value[0]);
+        console.log(CorrectAnswers);
+        const correctArray = CorrectAnswers.split(",");
+        if (correctArray.includes(checkbox.value[0])) {
+
+        }
+        else {
+            return false
+        }
+     });
+     return true
+    }
+    var question_type = "{{ dest2.0.Type }}"
+    var question_title = "{{ dest2.0.Question }}"
+    var solutions_text = "{{ dest2.0.Solutions|join:', ' }}" 
+    var CorrectAnswers = "{{ dest2.0.correctAnswers|join:', ' }}"
+    console.log(question_type)
+    console.log(question_title)
+    console.log(solutions_text)
+    console.log(CorrectAnswers)
+
+    function processMultipleChoiceQuestion() {
+        const solutionsArray = solutions_text.split(",");
+        var div = document.getElementById("solutions");
+    
+        // Create a unique name for this question
+        var question_title = question_title; // Use a unique name
+    
+        // Loop through the solutions and add each one as a label with a checkbox input
+        for (const solution of solutionsArray) {
+            // Create a label element
+            var label = document.createElement('label');
+    
+            // Create a checkbox input element
+            var checkboxInput = document.createElement('input');
+            checkboxInput.type = 'checkbox'; // Set the type to checkbox
+            checkboxInput.name = question_title; // Set the same name for all checkboxes in this question
+            checkboxInput.value = solution.trim();
+            
+            // Create an <h3> element
+            var h3 = document.createElement('h3');
+            h3.textContent = solution.trim(); // Trim whitespace from the solution text
+    
+            // Append the checkbox input and <h3> element to the label
+            label.appendChild(checkboxInput);
+            label.appendChild(h3);
+    
+            // Append the label to the div
+            div.appendChild(label);
+        }
+    
+        // Create a submit button
+        var submitButton = document.createElement('button');
+        submitButton.id = 'Submit'
+        submitButton.type = 'submit'; // Set the type to submit
+        submitButton.textContent = 'Submit';
+        submitButton.onclick = multipleChoiseButtonSubmit;
+    
+        // Append the submit button to the div (outside the loop)
+        div.appendChild(submitButton);
+    }
+    if (question_type == "M") {
+        processMultipleChoiceQuestion();
+    } else {
+        // Handle other types of questions here if needed
+    }
+    document.getElementById("question_title").innerHTML = question_title
+    document.getElementById("solutions_text").innerHTML = solutions_text
+    document.getElementById("")
+</script>
+
+<style>
+    label {
+        display: flex;
+        align-self: center;
+    }
+    
+    input [type = "radio"] {
+        margin-right: 10px;
+    }
+
+</style>
+
+
+ 
 {% endblock %}
+{% endif %}
 </body>
 </html>
-
-

@@ -54,10 +54,41 @@ def get_questions():
 def get_module_question_string(question_num: int, module_dict):
     q = module_dict
     return q[question_num]
+
+def get_module():
+    questionLines = load_file('/home/new/Documents/quizproject-main/testQuizFolder/localquiz/module06.txt')
+    counter = 1
+    quizQuestions = dict()
+    for lines in questionLines:
+        lines.rstrip()
+        questionObject = lines.split('*')
+        questionObject[2] = questionObject[2].split('-')
+        questionObject[3] = questionObject[3].split('-')
+        if questionObject[0] =='M':
+            questionObject[3][-1] = questionObject[3][-1][0]
+            questionObj = {
+                "Type" : questionObject[0],
+                "Question": questionObject[1],
+                "Solutions": questionObject[2],
+                "correctAnswers": questionObject[3]}
+            quizQuestions[str(counter)] = questionObj
+        elif questionObject[0] =='F':
+            questionObject[3][-1] = questionObject[3][-1].rstrip()
+            questionObj = {
+                "Type" : questionObject[0],
+                "Question" : questionObject[1],
+                "Solutions" : questionObject[2],
+                "CorrectAnswers": questionObject[3]}
+            quizQuestions[str(counter)] = questionObj
+        print(quizQuestions[str(counter)])
+        counter+=1
+    with open("requestedModule.json", "w") as write_file:
+        json.dump(quizQuestions, write_file, indent=4)
+    return quizQuestions
+
     
 if __name__ == '__main__':
-    test = get_module_questions('12')
-    get_module_question_string(1, test)
+    test = get_module()
     
     
             
