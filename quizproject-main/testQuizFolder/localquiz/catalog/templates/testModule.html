@@ -23,11 +23,11 @@
     function getCheckedResult() {
         const checkboxes = document.querySelectorAll('input[type="text"]');
         console.log(checkboxes);
-        CorrectAnswers = CorrectAnswers.split(",")
+        var Answers = CorrectAnswers.split(",")
         counter = 0;
-        if (checkboxes.length == CorrectAnswers.length) {
+        if (checkboxes.length == Answers.length) {
             for(i = 0 ; i < checkboxes.length; i++) {
-            if (checkboxes[counter].contains(CorrectAnswers[counter])){
+            if (checkboxes[counter].contains(Answers[counter])){
                 console.log('very true.')
             }
         }
@@ -98,17 +98,18 @@
         if (CorrectAnswers.length == solutions.length -1) {
          for (let i = 0; i < solutions.length; i++) {
             var secondDiv = document.createElement('div');
+            secondDiv.id = 'questionBox'
             var textSnippet = document.createElement('h3');
             textSnippet.textContent = solutions[i]; 
-            if (i == solutions.length-1){
-            var inputBox = document.createElement('input');
-            inputBox.type = 'text';
-            inputBox.name = CorrectAnswers[i];
-            }
             secondDiv.appendChild(textSnippet);
-            secondDiv.appendChild(inputBox);
+            if (i < solutions.length-1){
+                var inputBox = document.createElement('input');
+                inputBox.type = 'text';
+                inputBox.name = CorrectAnswers[i];
+                secondDiv.appendChild(inputBox);
+                }
             div.appendChild(secondDiv);
-         }
+        }
         }else {
             throw new Error('wrong amount of solutions / spaces in text.')
         }
@@ -166,12 +167,11 @@
         processFillInQuestion();
 
     }
-    document.getElementById("question_title").innerHTML = question_title
-    document.getElementById("solutions_text").innerHTML = solutions_text
-    document.getElementById("")
+    
 </script>
 
 <style>
+    
     label {
         display: flex;
         align-self: center;
