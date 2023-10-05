@@ -23,13 +23,19 @@
     function getCheckedResult() {
         const checkboxes = document.querySelectorAll('input[type="text"]');
         console.log(checkboxes);
-        var Answers = CorrectAnswers.split(",")
+        var Answers = CorrectAnswers;
         counter = 0;
         if (checkboxes.length == Answers.length) {
-            for(i = 0 ; i < checkboxes.length; i++) {
-            if (checkboxes[counter].contains(Answers[counter])){
-                console.log('very true.')
-            }
+            for(let i = 0 ; i < checkboxes.length; i++) {
+                console.log(checkboxes[i].value)
+            if (checkboxes[i].name.includes(checkboxes[i].value)){
+                var element = document.querySelector("div#"+checkboxes[i].value);
+                var CorrectText = document.createElement('h3')
+                CorrectText.textContent = 'Correct!'
+                CorrectText.style.color = 'green'
+                element.appendChild(CorrectText)
+                console.log(element)
+            } 
         }
         } else{
             throw new "unequal solution boxes to correct answers."
@@ -72,7 +78,7 @@
      } else{
         var divResult = document.createElement("Result")
         var h3Result = document.createElement('h3')
-        h3Result.textContent = 'Corre'
+        h3Result.textContent = 'Correct!'
         h3Result.style.color = 'Green'
         divResult.appendChild(h3Result)
         document.body.appendChild(divResult);
@@ -94,11 +100,12 @@
         var div = document.getElementById("solutions")
         var solutions = solutions_text.split("_");
         var counter = 0;
-        CorrectAnswers = CorrectAnswers.split(",")
+        CorrectAnswers = CorrectAnswers.replaceAll(" ","");
+        CorrectAnswers = CorrectAnswers.split(",");
         if (CorrectAnswers.length == solutions.length -1) {
          for (let i = 0; i < solutions.length; i++) {
             var secondDiv = document.createElement('div');
-            secondDiv.id = 'questionBox'
+            secondDiv.id = CorrectAnswers[i];
             var textSnippet = document.createElement('h3');
             textSnippet.textContent = solutions[i]; 
             secondDiv.appendChild(textSnippet);
