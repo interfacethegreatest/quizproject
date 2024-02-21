@@ -1,0 +1,42 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block title%}Contact {%endblock%}
+
+{% block content %}
+<div class="content">
+<link rel="stylesheet" href ="{% static 'homestyles1.css'%}">
+<link rel="stylesheet" href ="{% static 'browse.css'%}">
+<div class="contactSection">
+    <h2 class="contactTitle">The Browse Quizzes page</h2>
+    <hr>
+    <div class="browseQuiz">
+      {% for item in quizzes %}
+      <div class="quizRow">
+        <div class = "browseTop">
+          <img class="browseFile" src="{% static 'file-icon.jpg' %}" alt="">
+          <a class="quizText link" href="{% url 'quiz:detail' item.id %}">{{ item.title }}</a>
+          <div class="browseStatus"> 
+            {% if item.status == 'ready' %}
+                <p class="status ready">{{ item.get_status_display }}</p>
+            {% elif item.status == 'testing' %}
+                <p class="status testing">{{ item.get_status_display }}</p>
+            {% elif item.status == 'draft' %}
+                <p class="status draft">{{ item.get_status_display }}</p>
+            {% endif %}
+          </div>
+        </div>
+        <div class="browseBy">
+          
+          <p class="quizText">By: {{ item.creator }}<img class="browseUser" src="{% static 'user-icon.png' %}" alt=""></p>
+        </div>
+          <p class="quizText">Description: {{ item.description }}</p>
+      </div>
+      <hr>
+  {% endfor %}
+  
+
+    </div>
+    
+</div>
+</div>
+{% endblock %}

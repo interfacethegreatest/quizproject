@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{% block title %}{% endblock%} | Quizko</title>
+        {% load static %}
+        <link rel="stylesheet" href ="{% static 'base.css'%}">
+        
+</head>
+<body>
+    <nav>
+        <a href="/" class="logo">Quizko</a>
+        <ul>
+            <li><a href="{%url 'generate' %}">Generate</a></li>
+            <li><a href="{%url 'browse' %}">Browse</a></li>
+            <li class="button1"><a href="">Sign Up</a></li>
+            <li class="button2"><a href="">Log in</a></li>
+        </ul>
+    
+    </nav>
+    <div>
+
+        
+        {% block content %}
+        {% endblock %}
+
+    </div>
+
+    <footer>
+         <div class="containerDiv">
+                <h4>About</h4>
+                <br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>             
+        </div>
+        <div class="footerMenu">
+            <h4>Menu</h4>
+            <ul class="footerList">
+               <p><a href="{%url 'aboutus' %}" class="footerA">About Us</a></p>
+               <p><a href="{%url 'contact' %}" class="footerA">Contact</a></p>
+               <p><a href="" class="footerA">Privacy Policy</a></p>
+               <p><a href="" class="footerA">Terms of use</a></p>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+</html>

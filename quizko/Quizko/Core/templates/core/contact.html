@@ -1,0 +1,15 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block title%}Contact {%endblock%}
+
+{% block content %}
+<link rel="stylesheet" href ="{% static 'homestyles1.css'%}">
+<link rel="stylesheet" href ="{% static 'contact.css'%}">
+<div class="contactSection">
+    <h2 class="contactTitle">The Contact us Page</h2>
+    {% for quiz in quizes%}
+    <h3 class="contactQuizTitle">{{quiz.title}} </h3>
+    {% endfor %}
+</div>
+
+{% endblock %}
