@@ -1,103 +1,47 @@
 {% extends 'core/base.html'%}
 {% load static %}
-{% block title%} {{quiz.title}} {% endblock %}
+{% block title%} {{obj.title}} {% endblock %}
+{}
 
 {% block content %}
+<script src="{% static 'details.js' %}" defer></script>
 <link rel="stylesheet" href="{% static 'homestyles1.css' %}">
-<link rel="stylesheet" href="{% static 'detail.css' %}">
+<link rel="stylesheet" href="{% static 'details.css' %}">
 <div class="detailTitle">
-    <p class="detailTitleText">{{ quiz.title }}</p>
+    <p class="detailTitleText">{{ obj.title }}</p>
     <p>in</p>
-    <p class="detailTitleText">{{ quiz.subject }}</p>
+    <p class="detailTitleText">{{ obj.subject }}</p>
 </div>
 <div class="detailScroll">
     <nav class="sidebar">
         <header>
             <h2 class="detailHeader">Quizko</h2>
-            <h3 class="detailHeader">{{ quiz.title }}</h3>
+            <h3 class="detailHeader">{{ obj.title }}</h3>
         </header>
         <div class="scrollbox">
-            <div class="scrollbox-inner">
+            <div class="scrollbox-inner" id="scrollbox-inner">
                 {% for question in questions %}
-                <div class="detailQuestion" onclick="runScript('{{ question.text|escapejs }}', '{{ question_answers_json|escapejs }}'), highlightQuestion(this)">
-                    <h2>{{ question.text }}</h2>
+                <div>
+                    <h2></h2>
                 </div>
                 {% endfor %}
                 <br>
             </div>
         </div>
         <div class="detailFooter">
-            <h2>Im a Footer</h2>
+            <button type="button" id="submitQuiz" class="btn btn-danger btn-lg">End Exam</button>
         </div>
     </nav>
     <div class="detailContent">
         <h2 class="detailContentTextDefault">Contents</h2>
-        <br>
-        <br>
-        <br>
-        <h2 class="detailContentTextDefault">Select a question on the left, provide an answer and click submit.</h2>
+        <form id="quiz-form">
+            {% csrf_token %}
+            <div id="quiz-box"></div>
+            
+        </form>
     </div>
 </div>
 <script>
-    function runScript(questionText, questionAnswersJson) {
-        var questionAnswers = JSON.parse(questionAnswersJson);
-        var answers = questionAnswers[questionText];
-        var contentDiv = document.querySelector('.detailContent');
-        
-        contentDiv.innerHTML = '';  // Clear previous content
-        
-        // Create and append the h2 tag to display questionText
-        var questionHeader = document.createElement('h2');
-        questionHeader.classList.add('detailContentTextDefault');
-        questionHeader.textContent = questionText;
-        contentDiv.appendChild(questionHeader);
-        var radioDiv = document.createElement('div');
-        radioDiv.classList.add('radioDiv');
-        contentDiv.appendChild(radioDiv);
-        
-        for (var i = 0; i < answers.length; i++) {
-            var answerNumber = i + 1;
-            var answerText = answers[i].text;
-            var isCorrect = answers[i].is_correct;
-            
-            // Create radio button input
-            var radioInput = document.createElement('input');
-            radioInput.type = 'radio';
-            radioInput.name = 'answer';
-            radioInput.value = answerNumber;
-            radioInput.classList.add('detailRadio')
-            
-            // Create label for radio button
-            var label = document.createElement('label');
-            label.textContent = answerText;
-            
-            // Create line break
-            var br = document.createElement('br');
-            
-            // Append radio button and label to content div
-            radioDiv.appendChild(radioInput);
-            radioDiv.appendChild(label);
-            radioDiv.appendChild(br);
-        }
-
-        var submitButton = document.createElement('button');
-        submitButton.textContent = 'Submit';
-        submitButton.classList.add('detailContentSubmit');
-        radioDiv.appendChild(submitButton);
-    }
-
-    function highlightQuestion(questionDiv) {
-    // Remove any previously highlighted questions
-    var previousHighlightedQuestions = document.querySelectorAll('.highlightedQuestion');
-    previousHighlightedQuestions.forEach(function(element) {
-        element.classList.remove('highlightedQuestion');
-    });
-
-    // Add the 'highlightedQuestion' class to the clicked div
-    questionDiv.classList.add('highlightedQuestion');
-}
-
-   
 
 </script>
 {% endblock %}

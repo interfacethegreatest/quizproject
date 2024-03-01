@@ -1,20 +1,56 @@
 {% extends 'core/base.html'%}
 {% load static %}
 {% block title%}Contact {%endblock%}
+{% block scripts %}
+ 
+{% endblock scripts %}
 
 {% block content %}
-<div class="content">
+<script src="{% static 'browse.js' %}" defer></script>
 <link rel="stylesheet" href ="{% static 'homestyles1.css'%}">
 <link rel="stylesheet" href ="{% static 'browse.css'%}">
+<!-- Modal -->
+<div class="modal" id="quizStartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Start Test?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="modal-body-confirm">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+        <button type="button" id="start-button" class="btn btn-success">Yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content">
+
 <div class="contactSection">
     <h2 class="contactTitle">The Browse Quizzes page</h2>
     <hr>
     <div class="browseQuiz">
-      {% for item in quizzes %}
+      {% for item in object_list %}
       <div class="quizRow">
         <div class = "browseTop">
+          <hr>
           <img class="browseFile" src="{% static 'file-icon.jpg' %}" alt="">
-          <a class="quizText link" href="{% url 'quiz:detail' item.id %}">{{ item.title }}</a>
+          <!--<a class="quizText link" href="{% url 'quiz:detail' item.id %}">{{ item.title }}</a>-->
+          <button
+          class = "btn btn-link modal-button"
+          data-pk="{{item.pk}}"
+          data-quiz ="{{item.title}}"
+          data-questions="{{item.number_of_questions}}"
+          data-difficult="{{item.difficulty}}"
+          data-time="{{item.time}}"
+          data-pass="{{item.required_score_to_pass}}"
+          data-bs-toggle="modal"
+          data-bs-target="#quizStartModal">
+          <h3> {{item.title}} </h3>
+          </button>
           <div class="browseStatus"> 
             {% if item.status == 'ready' %}
                 <p class="status ready">{{ item.get_status_display }}</p>
@@ -24,13 +60,14 @@
                 <p class="status draft">{{ item.get_status_display }}</p>
             {% endif %}
           </div>
+          
         </div>
         <div class="browseBy">
-          
           <p class="quizText">By: {{ item.creator }}<img class="browseUser" src="{% static 'user-icon.png' %}" alt=""></p>
         </div>
           <p class="quizText">Description: {{ item.description }}</p>
       </div>
+      
       <hr>
   {% endfor %}
   

@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from item2.models import quizAnswer,quizQuestion,Quiz
+from item2.models import Answer,Question,Quiz,Result
+from django.views.generic import ListView
 # Create your views here.
 def index(request):
     return render(request, 'core/index.html')
@@ -14,8 +15,14 @@ def aboutus(request):
 def generate(request):
     return render(request, 'core/generate.html')
 
-def browse(request):
-    quizzes = Quiz.objects.all()[0:6]
-    return render(request, 'core/browse.html', {
-        'quizzes': quizzes
-    })
+
+class QuizListView(ListView):
+    model = Quiz
+    template_name ='core/browse.html'
+
+# def browse(request):
+#     quizzes = Quiz.objects.all()[0:6]
+#     return render(request, 'core/browse.html', {
+#         'quizzes': quizzes
+#     })
+
