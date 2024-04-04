@@ -16,17 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from Core.views import index, aboutus, contact, generate
+
 from Core.views import QuizListView
 
 
 urlpatterns = [
-    path('', index, name='index'),
+    path('', include('Core.urls')),
     path('browse/quiz/', include('item2.urls')),
-    path('aboutus/', aboutus, name='aboutus'),
+    
     path("admin/", admin.site.urls),
-    path('contact/', contact, name='contact' ),
-    path('generate/', generate, name= 'generate'),
+    
+    
     path('browse/', QuizListView.as_view(), name='browse'),
 
 ]

@@ -11,8 +11,8 @@
          <div class="hero-text">
             <h1>Discover And Create Your Own Quizzes!</h1>
             <p>Quizko is a web-based assessment and learning website. It comprises tools to create general quizzes to improve knowledge.</p>
-            <button>Log in</button> 
-            <BUtton>Sign up</BUtton>
+            <button><a href="{%url 'core:login' %}">Log in</a></button> 
+            <BUtton><a href="{%url 'core:signup' %}">Sign up</a></BUtton>
         </div>
         </div>
         <br>
@@ -36,7 +36,7 @@
             <div class="hero2-text">
                 <h1>Built in analytics to track your tests.</h1>
                 <p>Use our built-in dashboard to pull valuable insights from tests and monitor the value of your Quizko account.</p>
-                <button><a href="{%url 'generate' %}">Generate test</a></button>
+                <button><a href="{%url 'core:generate' %}">Generate test</a></button>
             </div>
         </div>
         <div class = "container"> 

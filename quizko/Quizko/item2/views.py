@@ -4,6 +4,7 @@ from .models import Quiz,Answer,Question,Result
 from django.views.generic import ListView
 from django.http import JsonResponse
 import random
+import math
 
 
 
@@ -26,7 +27,8 @@ def quiz_data_view(request, pk):
     random.shuffle(questions)
     return JsonResponse({
      'data':questions,
-     'time':quiz.time,
+     'scorePass': quiz.required_score_to_pass,
+     'time': quiz.time
     })
         
 def save_quiz_view(request, pk):
@@ -50,7 +52,6 @@ def save_quiz_view(request, pk):
         correct_answer = None
         for q in questions:
             a_selected = request.POST.get(q.text)
-            
             if a_selected !="":
                 question_answers = Answer.objects.filter(question=q)
                 for a in question_answers:
@@ -58,19 +59,20 @@ def save_quiz_view(request, pk):
                         if a.is_correct:
                             score+=1
                             correct_answer=a.text
-                        else:
+                    else:
                             if a.is_correct:
                                 correct_answer = a.text
                 results.append({str(q): {'correct_answer': correct_answer , 'answered': a_selected}})
             else:
                 results.append({str(q): 'not answered'})
-        score_ = score 
-        Result.objects.create(quiz=quiz, user=user, score = score_)
 
-        if score_>= quiz.required_score_to_pass:
-            return JsonResponse({'passed':True, 'score':score_, 'results': results})
+        score_ = score * multiplier
+        Result.objects.create(quiz=quiz, user=user, score=score_)
+
+        if score_ >= quiz.required_score_to_pass:
+            return JsonResponse({'passed':True, 'score':round(score_,2), 'results': results})
         else:
-            return JsonResponse({'passed':False, 'score':score_, 'results': results})
+            return JsonResponse({'passed':False, 'score':round(score_,2), 'results': results})
 
 
     return JsonResponse({'text':'works'})
